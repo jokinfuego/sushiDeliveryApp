@@ -1,0 +1,6 @@
+framework module Pods_sushiOle {
+  umbrella header "Pods-sushiOle-umbrella.h"
+
+  export *
+  module * { export * }
+}
