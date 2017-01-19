@@ -23,12 +23,12 @@ class TableViewController: UITableViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        var Boton = DataHolder.sharedInstance.arrayDict.count
-        var sBoton = String(Boton)
+        let Boton = DataHolder.sharedInstance.arrayDict.count
+        let sBoton = String(Boton)
         self.pedidoButton.title = "Pedido: " + sBoton
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-            var selectedCell:UITableViewCell = tableView.cellForRow(at: indexPath)!
+            let selectedCell:UITableViewCell = tableView.cellForRow(at: indexPath)!
             selectedCell.contentView.backgroundColor = UIColor.white
         
     }
@@ -83,7 +83,7 @@ class TableViewController: UITableViewController {
 
         let PlatoP = array[indexPath.row] as! [String : AnyObject]
         cell.lblNombre.text = PlatoP["nombre"]! as? String
-        var url = PlatoP["url"] as! String
+        let url = PlatoP["url"] as! String
         let reference = FIRStorage.storage().reference(forURL: url)
         reference.data(withMaxSize: 1*1024*1024) { (data, error) -> Void in
             let myImage: UIImage! = UIImage(data: data!)

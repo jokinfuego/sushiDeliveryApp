@@ -26,12 +26,12 @@ class Cell2: UITableViewCell {
         button.addTarget(self, action: #selector(self.buttonTapped), for: .touchUpInside)
 
     }
-    func buttonTapped(sender : UIButton){
+    func buttonTapped(_ sender : UIButton){
         button.layer.borderWidth = 0.0
         button.setTitle("", for:.normal)
         button.isSelected = true
         button.setImage(UIImage(named: "ch.png"), for: .selected)
-        DataHolder.sharedInstance.createArrayOfDishes(precio: self.precio as String, nombre: self.nombre, cantidad: "1")
+        DataHolder.sharedInstance.createArrayOfDishes(self.precio as String, nombre: self.nombre, cantidad: "1")
         print("--arrayDIct despues de meter un dato",DataHolder.sharedInstance.arrayDict)
         print("--OrderSize despues de meter un producto",DataHolder.sharedInstance.orderSize)
     }

@@ -16,16 +16,34 @@ class cell3: UITableViewCell {
     
     @IBOutlet weak var quantiStep: UIStepper!
     @IBOutlet weak var quantityLabel: UILabel!
+    
+    var keyproducto : Int = 0
+    var precioCell : Int = 0
+    
     override func awakeFromNib() {
-        quantityLabel.text = "1"
+        quantityLabel.text = ""
         super.awakeFromNib()
         // Initialization code
     }
     
     @IBAction func stepperAction(_ sender: UIStepper) {
-        var quantity2 = Int(sender.value)
-        self.quantityLabel.text = String(quantity2)
-        self.cantidad.text = String(Int(sender.value))
+        print("--sender value",sender.value)
+        let senderVal = Int(sender.value)
+        let strsenderVal = String(senderVal)
+        let precioTotal = precioCell * senderVal
+        let strPrecioTotal = String(precioTotal)
+        DataHolder.sharedInstance.arrayDict[keyproducto]?.remove(at: 2)
+        DataHolder.sharedInstance.arrayDict[keyproducto]?.append(String(senderVal))
+        DataHolder.sharedInstance.arrayDict[keyproducto]?.remove(at: 0)
+        DataHolder.sharedInstance.arrayDict[keyproducto]?.insert(strPrecioTotal, at: 0)
+        
+        print("---fin",DataHolder.sharedInstance.arrayDict[keyproducto])
+        //self.cantidad.text = String(DataHolder.sharedInstance.arrayDict[keyproducto].)
+        cantidad.text = strsenderVal
+        precio.text = strPrecioTotal + "€"
+        
+        
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

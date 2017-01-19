@@ -10,17 +10,27 @@ import UIKit
 
 class Pedidos: UIViewController,UITableViewDataSource,UITableViewDelegate{
 
-
+    var timer = Timer()
+    
     @IBOutlet weak var tableView: UITableView!
     
+    @IBAction func Paytouch(_ sender: AnyObject) {
+            performSegue(withIdentifier: "Formulario", sender: self)
+        
+           }
     @IBOutlet weak var Realizarpedido: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         Realizarpedido.layer.borderWidth = 1.0
         Realizarpedido.layer.borderColor = UIColor.red.cgColor
-
+        Realizarpedido.setTitle(String(DataHolder.sharedInstance.getPrice()), for: .normal)
+        timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
+        
+        
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -38,16 +48,22 @@ class Pedidos: UIViewController,UITableViewDataSource,UITableViewDelegate{
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         
-  //  let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "cell3") as! cell3
     let cell = tableView.dequeueReusableCell(withIdentifier: "cell3", for: indexPath) as! cell3
         let artemp = Array(DataHolder.sharedInstance.arrayDict.values)
         print("-- artemp",artemp)
-
+        let arKeys = Array(DataHolder.sharedInstance.arrayDict.keys)
+        cell.keyproducto = arKeys[indexPath.row]
+        
        let ar:Array<String> = artemp[indexPath.row] as Array<String>
+        print("---artempindexpath",artemp[indexPath.row])
         cell.nombre.text = ar[1]
         cell.precio.text = ar[0] + " €"
         cell.cantidad.text = ar[2]
+        let pr = Int(ar[0])
+        cell.precioCell = pr!
+
         //DataHolder.sharedInstance.arrayDict.updateValue(cell.cantidad.text, forKey: artemp[indexPath.row])
+        
         return cell
     }
     
@@ -69,21 +85,11 @@ class Pedidos: UIViewController,UITableViewDataSource,UITableViewDelegate{
         print(DataHolder.sharedInstance.arrayDict.count,DataHolder.sharedInstance.arrayDict)
     }
     
-    
+    func timerAction() {
+        Realizarpedido.setTitle("Realizar pedido: "+String(DataHolder.sharedInstance.getPrice())+"€", for: .normal)
+    }
+
     
 
-        
-          
-        
-    
-    
-    
-   /* func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-        let actionQuantity = UITableViewRowAction(style: .default, title: "Cantidad") { (action, IndexPath) in
-            let actionQuantityText = "xxxxxxxx"
-            let activity = UIActivityViewController(activityItems: [actionQuantityText], applicationActivities: nil)
-        }
-    }
-    */
 
 }

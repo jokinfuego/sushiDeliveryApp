@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		577B380D1E16B0DA0037E9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B380C1E16B0DA0037E9ED /* ViewController.swift */; };
 		AB9803F44B1C15B441BAB570 /* Pods_sushiOle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D73D345633C462AD3AEB5E /* Pods_sushiOle.framework */; };
 		D521A6CE1DA69E9C0001A085 /* Pedidos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D521A6CD1DA69E9C0001A085 /* Pedidos.swift */; };
 		D521A6D11DA69F320001A085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D521A6CF1DA69F320001A085 /* Main.storyboard */; };
@@ -33,12 +34,11 @@
 		D5487E521DA560B800296598 /* SanFranciscoText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5487E3D1DA560B800296598 /* SanFranciscoText-SemiboldItalic.otf */; };
 		D5487E541DA5A04B00296598 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5487E531DA5A04B00296598 /* TableViewController2.swift */; };
 		D5487E561DA5AC2F00296598 /* Cell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5487E551DA5AC2F00296598 /* Cell2.swift */; };
-		D55C23651DB6279D00B8E73B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D55C23641DB6279D00B8E73B /* GoogleService-Info.plist */; };
 		D56400D31D9A529700DE2884 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56400D21D9A529700DE2884 /* TableViewController.swift */; };
 		D56400DB1D9A629300DE2884 /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56400DA1D9A629300DE2884 /* DataHolder.swift */; };
 		D56400E11DA3BCC500DE2884 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56400E01DA3BCC500DE2884 /* Cell.swift */; };
-		D56400E51DA41C9600DE2884 /* Q.png in Resources */ = {isa = PBXBuildFile; fileRef = D56400E41DA41C9600DE2884 /* Q.png */; };
 		D56E21921DACDB3C0074C00F /* cell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56E21911DACDB3C0074C00F /* cell3.swift */; };
+		D56E76BD1DB8CA3600E462FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56E76BC1DB8CA3600E462FB /* GoogleService-Info.plist */; };
 		D5D0B9F91D942148006D7B36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0B9F81D942148006D7B36 /* AppDelegate.swift */; };
 		D5D0BA041D942148006D7B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D0BA031D942148006D7B36 /* Assets.xcassets */; };
 		D5D0BA071D942148006D7B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D0BA051D942148006D7B36 /* LaunchScreen.storyboard */; };
@@ -49,6 +49,7 @@
 		15D73D345633C462AD3AEB5E /* Pods_sushiOle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sushiOle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B98B17C73C3AA6F2A417FD1 /* Pods-sushiOle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sushiOle.release.xcconfig"; path = "Pods/Target Support Files/Pods-sushiOle/Pods-sushiOle.release.xcconfig"; sourceTree = "<group>"; };
 		2EB8D896E47FE4AA4FDA7E82 /* Pods-sushiOle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sushiOle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sushiOle/Pods-sushiOle.debug.xcconfig"; sourceTree = "<group>"; };
+		577B380C1E16B0DA0037E9ED /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		D521A6CD1DA69E9C0001A085 /* Pedidos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pedidos.swift; sourceTree = "<group>"; };
 		D521A6D01DA69F320001A085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5487E291DA560B800296598 /* SanFranciscoDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoDisplay-Black.otf"; path = "../../../../Downloads/SanFranciscoFont-master/SanFranciscoDisplay-Black.otf"; sourceTree = "<group>"; };
@@ -74,12 +75,11 @@
 		D5487E3D1DA560B800296598 /* SanFranciscoText-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoText-SemiboldItalic.otf"; path = "../../../../Downloads/SanFranciscoFont-master/SanFranciscoText-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		D5487E531DA5A04B00296598 /* TableViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
 		D5487E551DA5AC2F00296598 /* Cell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell2.swift; sourceTree = "<group>"; };
-		D55C23641DB6279D00B8E73B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D56400D21D9A529700DE2884 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D56400DA1D9A629300DE2884 /* DataHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
 		D56400E01DA3BCC500DE2884 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
-		D56400E41DA41C9600DE2884 /* Q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Q.png; path = ../../../../Downloads/Q.png; sourceTree = "<group>"; };
 		D56E21911DACDB3C0074C00F /* cell3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cell3.swift; path = ../cell3.swift; sourceTree = "<group>"; };
+		D56E76BC1DB8CA3600E462FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D5D0B9F51D942148006D7B36 /* sushiOle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sushiOle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D0B9F81D942148006D7B36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D0BA031D942148006D7B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -157,11 +157,11 @@
 		D5D0B9F71D942148006D7B36 /* sushiOle */ = {
 			isa = PBXGroup;
 			children = (
-				D55C23641DB6279D00B8E73B /* GoogleService-Info.plist */,
+				577B380C1E16B0DA0037E9ED /* ViewController.swift */,
+				D56E76BC1DB8CA3600E462FB /* GoogleService-Info.plist */,
 				D5D43F3F1DAFDE16001BCB62 /* ch.png */,
 				D521A6CF1DA69F320001A085 /* Main.storyboard */,
 				D5487E281DA5609F00296598 /* Resources */,
-				D56400E41DA41C9600DE2884 /* Q.png */,
 				D5D0B9F81D942148006D7B36 /* AppDelegate.swift */,
 				D5D0BA031D942148006D7B36 /* Assets.xcassets */,
 				D5D0BA051D942148006D7B36 /* LaunchScreen.storyboard */,
@@ -222,6 +222,7 @@
 					D5D0B9F41D942148006D7B36 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = EW5SV8C4SK;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -250,9 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5487E3F1DA560B800296598 /* SanFranciscoDisplay-Bold.otf in Resources */,
+				D56E76BD1DB8CA3600E462FB /* GoogleService-Info.plist in Resources */,
 				D5487E501DA560B800296598 /* SanFranciscoText-RegularItalic.otf in Resources */,
 				D5487E3E1DA560B800296598 /* SanFranciscoDisplay-Black.otf in Resources */,
-				D56400E51DA41C9600DE2884 /* Q.png in Resources */,
 				D5487E421DA560B800296598 /* SanFranciscoDisplay-Medium.otf in Resources */,
 				D5487E4D1DA560B800296598 /* SanFranciscoText-Medium.otf in Resources */,
 				D5487E4A1DA560B800296598 /* SanFranciscoText-HeavyItalic.otf in Resources */,
@@ -260,7 +261,6 @@
 				D5D0BA071D942148006D7B36 /* LaunchScreen.storyboard in Resources */,
 				D5487E4C1DA560B800296598 /* SanFranciscoText-LightItalic.otf in Resources */,
 				D5487E431DA560B800296598 /* SanFranciscoDisplay-Regular.otf in Resources */,
-				D55C23651DB6279D00B8E73B /* GoogleService-Info.plist in Resources */,
 				D5487E4E1DA560B800296598 /* SanFranciscoText-MediumItalic.otf in Resources */,
 				D5487E441DA560B800296598 /* SanFranciscoDisplay-Semibold.otf in Resources */,
 				D5D0BA041D942148006D7B36 /* Assets.xcassets in Resources */,
@@ -324,7 +324,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -337,6 +337,7 @@
 				D5487E561DA5AC2F00296598 /* Cell2.swift in Sources */,
 				D56E21921DACDB3C0074C00F /* cell3.swift in Sources */,
 				D5487E541DA5A04B00296598 /* TableViewController2.swift in Sources */,
+				577B380D1E16B0DA0037E9ED /* ViewController.swift in Sources */,
 				D5D0B9F91D942148006D7B36 /* AppDelegate.swift in Sources */,
 				D56400D31D9A529700DE2884 /* TableViewController.swift in Sources */,
 				D56400E11DA3BCC500DE2884 /* Cell.swift in Sources */,

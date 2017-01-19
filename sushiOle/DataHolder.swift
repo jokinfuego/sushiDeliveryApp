@@ -6,8 +6,7 @@
 //  Copyright © 2016 Joaquin Lopez Amador. All rights reserved.
 //
 
-//ESTA CLASE ME SIREVE PARA CENTRALIZAR FIREBASE DESDE CUALQUIER PARTE DEL PAQUETE PODER SER UTILIZADA
-//SOLO TENDRIA QUE LLAMAR A DATAHOLDER
+
 import Foundation
 import Firebase
 import FirebaseDatabase
@@ -22,18 +21,31 @@ class DataHolder : NSObject{
     
     override init() {
         super.init()
-        
-    }
-    
-    func initFIR()  {
         print("--entra dataholder")
         FIRApp.configure()
         ref = FIRDatabase.database().reference()
         refStorage = FIRStorage.storage().reference()
+        
+        
+    }
+    func getPrice() -> (Int) {
+        var price : Int = 0
+        var i = 0
+        for item in arrayDict {
+            if(arrayDict[i]?.isEmpty)!{
+                print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@vacio")
+            }else{
+                 price += Int((arrayDict[i]?[0])!)!
+            }
+           
+            i+=1
+        }
+        return price
     }
     
     
-    func createArrayOfDishes(precio : String, nombre : String , cantidad : String) -> Void {
+    
+    func createArrayOfDishes(_ precio : String, nombre : String , cantidad : String) -> Void {
         
         var datos = [String]()
         datos.append(precio)
@@ -44,7 +56,7 @@ class DataHolder : NSObject{
         
     }
     
-    func getImages(url : String,imagenView : UIImageView) ->Bool {
+    func getImages(_ url : String,imagenView : UIImageView) ->Bool {
         
         imagenView.image = nil
         if(self.Images[url] != nil){
