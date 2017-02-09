@@ -10,23 +10,28 @@ import UIKit
 
 class Pedidos: UIViewController,UITableViewDataSource,UITableViewDelegate{
 
-    var timer = Timer()
+    //var timer = Timer()
     
     @IBOutlet weak var tableView: UITableView!
     
     @IBAction func Paytouch(_ sender: AnyObject) {
-            performSegue(withIdentifier: "Formulario", sender: self)
+        if DataHolder.sharedInstance.orderSize>0 {
+            //performSegue(withIdentifier: "Formulario", sender: self)
+
+        }
         
            }
     @IBOutlet weak var Realizarpedido: UIButton!
     
 
     override func viewDidLoad() {
+        self.title = "Pedido"
         super.viewDidLoad()
         Realizarpedido.layer.borderWidth = 1.0
         Realizarpedido.layer.borderColor = UIColor.red.cgColor
         Realizarpedido.setTitle(String(DataHolder.sharedInstance.getPrice()), for: .normal)
-        timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
+        //timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
+        DataHolder.sharedInstance.btnPedido=Realizarpedido
         
         
     }
@@ -72,7 +77,7 @@ class Pedidos: UIViewController,UITableViewDataSource,UITableViewDelegate{
     }
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         
-        
+        print("entro a edititg")
         if editingStyle == .delete{
             let arKeys = Array(DataHolder.sharedInstance.arrayDict.keys)
             print("-----arkeys",arKeys)
@@ -80,7 +85,7 @@ class Pedidos: UIViewController,UITableViewDataSource,UITableViewDelegate{
             self.tableView.deleteRows(at: [indexPath], with: .fade)
 
 
-                    }
+        }
         
         print(DataHolder.sharedInstance.arrayDict.count,DataHolder.sharedInstance.arrayDict)
     }

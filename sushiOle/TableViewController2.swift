@@ -13,12 +13,16 @@ class TableViewController2: UITableViewController {
     var Data : Int = 0
     var array2 : Array<AnyObject> = []
     var child : String = ""
+    var dishes: [String] = ["Hosomaki", "Sashimi","Noodles","Sashimi"]
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         let myString = String(Data)
         child = "c" + myString
         downloadDataFromFirebase()
+        self.title = dishes[Data]
+        
 
     }
 

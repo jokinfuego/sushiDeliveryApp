@@ -10,7 +10,7 @@
 import Foundation
 import Firebase
 import FirebaseDatabase
-
+import FirebaseAuth
 class DataHolder : NSObject{
     static let sharedInstance = DataHolder()
     var ref:FIRDatabaseReference?
@@ -18,28 +18,43 @@ class DataHolder : NSObject{
     var Images = [String:UIImage]()
     var arrayDict = [Int: Array<String>]()
     var orderSize : Int = 0
-    
+    var calle : String = ""
+    var numero : String = ""
+    var piso : String = ""
+    var codigoPostal : String = ""
+    var palillos : Bool = false
+    var soja : Bool = false
+    var servilletas : Bool = false
+    var comentarios : String = ""
+    var pago : String = ""
+    var date = Date()
+    var btnPedido:UIButton? = nil
+    var user : FIRUser? = nil
+    let firebaseAuth = FIRAuth.auth()
+
     override init() {
         super.init()
         print("--entra dataholder")
-        FIRApp.configure()
+        //FIRApp.configure()
         ref = FIRDatabase.database().reference()
         refStorage = FIRStorage.storage().reference()
-        
+        if FIRAuth.auth()?.currentUser != nil {
+             user = FIRAuth.auth()?.currentUser
+        } else {
+            print("not signed in")
+        }
         
     }
     func getPrice() -> (Int) {
         var price : Int = 0
-        var i = 0
+        
+        print("---- >>>>>>> %@",arrayDict)
         for item in arrayDict {
-            if(arrayDict[i]?.isEmpty)!{
-                print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@vacio")
-            }else{
-                 price += Int((arrayDict[i]?[0])!)!
-            }
-           
-            i+=1
+        
+            price += Int(item.value[0])!
         }
+        btnPedido?.setTitle(String(price), for: .normal)
+        
         return price
     }
     

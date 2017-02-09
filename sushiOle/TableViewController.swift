@@ -8,24 +8,52 @@
 
 import UIKit
 import FirebaseStorage
+import SCLAlertView
 
 class TableViewController: UITableViewController {
     
+    @IBAction func profile(_ sender: Any) {
+        let appearance = SCLAlertView.SCLAppearance(
+            showCircularIcon: true
+        )
+        let alertView = SCLAlertView(appearance: appearance)
+        let alertViewIcon = UIImage(named: "sushi.png") //Replace the IconImage text with the image name
+        alertView.addButton("Pedidos") {
+            //try! DataHolder.sharedInstance.firebaseAuth?.signOut()
+            //DataHolder.sharedInstance.user = nil
+            //self.performSegue(withIdentifier: "signout", sender: self)
+            //try! DataHolder.sharedInstance.firebaseAuth?.signOut()
+            if let storyboard = self.storyboard {
+                let vc = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+                self.present(vc, animated: false, completion: nil)
+            }
+        }
+        alertView.addButton("Sign out") {
+            print("third button tapped")
+        }
+        alertView.showError((DataHolder.sharedInstance.user?.email)!, subTitle: "", circleIconImage: alertViewIcon)
+    }
     var diccionario:[String:AnyObject] = [:]
     var array : Array<AnyObject> = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         downloadDataGeneralMenu()
-        
-        
+        print("current user " , DataHolder.sharedInstance.user?.email)
         
     }
     
     override func viewDidAppear(_ animated: Bool) {
         let Boton = DataHolder.sharedInstance.arrayDict.count
         let sBoton = String(Boton)
-        self.pedidoButton.title = "Pedido: " + sBoton
+        //self.pedidoButton.title = "Pedido: " + sBoton
+        if( DataHolder.sharedInstance.arrayDict.count == 0){
+            self.pedidoButton.image = UIImage(named:"sushi.png")
+        }else{
+            self.pedidoButton.image = UIImage(named:"sushi2.png")
+
+        }
+        
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             let selectedCell:UITableViewCell = tableView.cellForRow(at: indexPath)!

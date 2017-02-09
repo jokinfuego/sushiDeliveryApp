@@ -42,6 +42,7 @@ class cell3: UITableViewCell {
         cantidad.text = strsenderVal
         precio.text = strPrecioTotal + "€"
         
+        DataHolder.sharedInstance.getPrice()
         
         
     }

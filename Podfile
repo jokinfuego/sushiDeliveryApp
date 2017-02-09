@@ -10,9 +10,12 @@ target 'sushiOle' do
 
   # Pods for sushiOle
 pod 'Firebase'
+
 pod ‘Firebase/Storage’
 pod 'Firebase/Database'
 pod 'Firebase/Analytics'
 pod 'Former'
+pod 'SCLAlertView'
+pod 'Firebase/Auth'
 
 end

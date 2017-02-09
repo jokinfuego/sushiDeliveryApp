@@ -7,62 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D419A0A140CCD76C4ABC610469A7F86 /* SelectorPickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF718AA88A6D86C97FC9926A6B53976 /* SelectorPickerRowFormer.swift */; };
-		16A4C7DFC018425404008E8DF2A8D2A3 /* SwitchRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E636461F514B36300C2D7C4F30D316 /* SwitchRowFormer.swift */; };
-		16B052A781EBC363764D6BF825BF08AC /* SelectorDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378755CE970282B5318511E27284610A /* SelectorDatePickerRowFormer.swift */; };
-		17EFA9C01D6621D1DCF25660C1F5F7E4 /* FormPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018001650AA960920A346FC0A203A0F /* FormPickerCell.swift */; };
-		189C57CEA44F24610F314FF842FDEF53 /* FormLabelHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65717BC3C23E208738F0C6D970170EF1 /* FormLabelHeaderView.swift */; };
-		2E1F74652507ADCF0F0A08B0828379B2 /* Pods-sushiOle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27922CFD07CE65071FD783EB39550560 /* Pods-sushiOle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EE2351C2A901B95575996A266873EAC /* FormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D0782F7B4A6AD393252160D660405F /* FormStepperCell.swift */; };
-		33B9C0A36836C1FB916408CEF2D5F02B /* FormerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55756B38FBEE04039C2EF22097375CA2 /* FormerProtocol.swift */; };
-		3513BAD9FDE72F17B92827FE76F80F35 /* Former-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7868E0A805EE0C9683B6E6A2C18E89 /* Former-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39C46C8DA3341A7EBC4DE56B2FF6977C /* InlinePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CBA648130F05BFC4557F075FA6B17 /* InlinePickerRowFormer.swift */; };
-		3B26519FB571112C58B6A58E36F6C024 /* Former-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 472BB13F930011E74480BCD23CE3EB76 /* Former-dummy.m */; };
-		45A8883BB91A0C92532CFF54EDE6F13A /* FormInlinePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4549C5BA3AA1E175BC115CAD2C4670A6 /* FormInlinePickerCell.swift */; };
-		4C69299B51B74F70F02E4AF10AF38D7F /* FormSelectorDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746CF79921F42E35F24024EB1369EB6 /* FormSelectorDatePickerCell.swift */; };
-		4EDC151113BF40EEA2F326AF2432AAB1 /* CustomRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D4E69512DF17BE9245BB9181D5A3DA /* CustomRowFormer.swift */; };
-		4EFE73FBD31B8A1674514B2E029BA8CD /* FormHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62372C593B2B89E233C53F0C23E6804 /* FormHeaderFooterView.swift */; };
-		546D31CA3475C9BA13235F4922CB845B /* FormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DAB1938B0081FDCCE63196B38DD673 /* FormSliderCell.swift */; };
-		55772E659D33D42E6EEDF71D251FAB2D /* FormCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22854D43F871B9BB2A9A05CD25649F28 /* FormCheckCell.swift */; };
-		5FAF74594460C8D9B157D952AD7295EF /* PickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3CAA95F89E10749C13650C32C3322 /* PickerRowFormer.swift */; };
-		68B163429BCDC122CDBA8214FF07C198 /* ViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CA71E9DE2A50867647418A4AC2B43B /* ViewFormer.swift */; };
-		694E28245529184FE8E141808B13944F /* SegmentedRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382D031EE52C5C45C8FDDBA853F6870 /* SegmentedRowFormer.swift */; };
-		6B95D6771182922AD0FBFC7724ED08C4 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA4FE592A31AE6A7FA619FB0892049 /* FormViewController.swift */; };
+		0D419A0A140CCD76C4ABC610469A7F86 /* SelectorPickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE184058F91453BC35A60CCF21309876 /* SelectorPickerRowFormer.swift */; };
+		16A4C7DFC018425404008E8DF2A8D2A3 /* SwitchRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EB05CA543632DA819C5A1AA1101B7 /* SwitchRowFormer.swift */; };
+		16B052A781EBC363764D6BF825BF08AC /* SelectorDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5407F9F687D1F64A49E3F8A5D5D44BA8 /* SelectorDatePickerRowFormer.swift */; };
+		17EFA9C01D6621D1DCF25660C1F5F7E4 /* FormPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CBE98227983204F6A493953AC2A2AF /* FormPickerCell.swift */; };
+		189C57CEA44F24610F314FF842FDEF53 /* FormLabelHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E6B98CADFA8BBE5FED98723CD8A8B /* FormLabelHeaderView.swift */; };
+		23B3174372886F0109D396EF35F2A420 /* Pods-sushiOle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E6BB385D7542AFC36724FCF9DB977E /* Pods-sushiOle-dummy.m */; };
+		2AE9393A2ABB6F81945EE8279603B2E1 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A920DF1DFC7E45EB56660FCEE18DB661 /* SCLAlertView.swift */; };
+		2EE2351C2A901B95575996A266873EAC /* FormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7DB3727978298AE96028A8C53582F6 /* FormStepperCell.swift */; };
+		33B9C0A36836C1FB916408CEF2D5F02B /* FormerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCD62E9FF9CEE9C8FB874242AAAF5F /* FormerProtocol.swift */; };
+		3513BAD9FDE72F17B92827FE76F80F35 /* Former-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1140C6CCD140D9A11102A3B0D06B89A0 /* Former-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39C46C8DA3341A7EBC4DE56B2FF6977C /* InlinePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471820931F2FA6F8F475BFF9C1A6482 /* InlinePickerRowFormer.swift */; };
+		3B26519FB571112C58B6A58E36F6C024 /* Former-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDFB9E92E94D713FFBB070069AA9B14 /* Former-dummy.m */; };
+		45A8883BB91A0C92532CFF54EDE6F13A /* FormInlinePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616BA8C2178C4A5402F6866D97D77694 /* FormInlinePickerCell.swift */; };
+		4C69299B51B74F70F02E4AF10AF38D7F /* FormSelectorDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC991BD4B8CA3DF077D604DB288B4B /* FormSelectorDatePickerCell.swift */; };
+		4EDC151113BF40EEA2F326AF2432AAB1 /* CustomRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4612794B91167FEDA294D62F195F00 /* CustomRowFormer.swift */; };
+		4EFE73FBD31B8A1674514B2E029BA8CD /* FormHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FF4A26E02BCDC6776AAA43A8E71D27 /* FormHeaderFooterView.swift */; };
+		53DEBBF64DB47438C0A7DDDF0317EA7F /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F89A663A6027D76A8C919CD1A1D2F50 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		546D31CA3475C9BA13235F4922CB845B /* FormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69468140E1F3CB2EDAC1257DC9CA92EF /* FormSliderCell.swift */; };
+		549B452B9E674C2769F042E88AE268F3 /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A39ED5CBA6B96ED0B408321F99D50F5 /* SCLAlertView-dummy.m */; };
+		55772E659D33D42E6EEDF71D251FAB2D /* FormCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B864D8B05660F18B051BE84E12E656 /* FormCheckCell.swift */; };
+		5FAF74594460C8D9B157D952AD7295EF /* PickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9677504ED00C890475AE43C2B4806 /* PickerRowFormer.swift */; };
+		68B163429BCDC122CDBA8214FF07C198 /* ViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF61B24C376723DC64980F86C1DAA72 /* ViewFormer.swift */; };
+		694E28245529184FE8E141808B13944F /* SegmentedRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E47A330C6C164B0C5857908CCD1DA0 /* SegmentedRowFormer.swift */; };
+		6B95D6771182922AD0FBFC7724ED08C4 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AC4D48E945BF0FDC17B4BB1FC52BC /* FormViewController.swift */; };
+		715623E08A0E4F43CFE1E16A5C25684A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		72B0A189C1CA77A8F15AA8E64AF3E239 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		7AB82E65953212889AB0DD3064EFC5CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		7EE1017AB43B9F22AAE7275204FD37AE /* FormSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0CCE22B320D6EEBCB4D79E90BAAD75 /* FormSwitchCell.swift */; };
-		83163EB183883A03B5DB60B70828B189 /* FormDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A776E27261FF15C789E18432E4600E7 /* FormDatePickerCell.swift */; };
-		8E7FA123DFABE64E19ED5A7DF90D36A4 /* CustomViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F552151837B1D56CB74C52C58268170 /* CustomViewFormer.swift */; };
-		94B13140E811D85AD9594F66CCD46A4A /* LabelRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFB1BEA2E390573796DF3B1F49E6780 /* LabelRowFormer.swift */; };
-		A82DB4FBC7E2AE3C28D22BFCA2C4F419 /* RowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1A425C0C638078FB4698E6969E1DD7 /* RowFormer.swift */; };
-		A84D87C6083E28309039FF58DE79468B /* FormLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5997D80C214B7A49968B326BFC1EF4A0 /* FormLabelCell.swift */; };
-		AE37967D9124D3DEF3D3F76BAAF6D693 /* TextFieldRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460CBE24E9E14F9DD016513C30E77A21 /* TextFieldRowFormer.swift */; };
-		AE936C2ACC5E117B7B837579D7BA0038 /* BaseViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A1972ECEE56A71D510119C4CD1F10D /* BaseViewFormer.swift */; };
-		AF3DA11374B37D880A650CF701AABCFE /* FormTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9176198894851EA4540EC4E6E76760 /* FormTextFieldCell.swift */; };
-		B5729C1C328395C69DADEF10ECD56EE0 /* LabelViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E487A1750BD379E1DC57F33852E156 /* LabelViewFormer.swift */; };
-		B58D53F8B6565779B62D6FFE49C3253B /* FormSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805B54BC2994ACA1479F16B7FEA0C203 /* FormSegmentedCell.swift */; };
-		BBFB67C50B82DECA17A136C35C15438C /* BaseRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBF73A4197F2B70134B8F4D2F71D24 /* BaseRowFormer.swift */; };
+		7EE1017AB43B9F22AAE7275204FD37AE /* FormSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDE9F3D86858936020050F99B3100A1 /* FormSwitchCell.swift */; };
+		7F01C6A3943AC431E4F66C636E13DF2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		83163EB183883A03B5DB60B70828B189 /* FormDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED02AC80A25285CCE71FC07B20B06B4 /* FormDatePickerCell.swift */; };
+		8E7FA123DFABE64E19ED5A7DF90D36A4 /* CustomViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9CD18E0675391A272799F26756B3F1 /* CustomViewFormer.swift */; };
+		94B13140E811D85AD9594F66CCD46A4A /* LabelRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D60E7DF7A9549D55411F5E8628935E /* LabelRowFormer.swift */; };
+		A6596E87371CD9F21D1434965CFD14AA /* Pods-sushiOle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27922CFD07CE65071FD783EB39550560 /* Pods-sushiOle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A82DB4FBC7E2AE3C28D22BFCA2C4F419 /* RowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358536CB530D12CAC1B15274E439E70A /* RowFormer.swift */; };
+		A84D87C6083E28309039FF58DE79468B /* FormLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75933D7F1846952F1672A334B35F50A1 /* FormLabelCell.swift */; };
+		AE37967D9124D3DEF3D3F76BAAF6D693 /* TextFieldRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD1B46525BE435909E426396F254C0A /* TextFieldRowFormer.swift */; };
+		AE936C2ACC5E117B7B837579D7BA0038 /* BaseViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D632582D1DEAEA86B80F65586DD2B1 /* BaseViewFormer.swift */; };
+		AF3DA11374B37D880A650CF701AABCFE /* FormTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391409714E9A5DECD5D9C9BF204C3C64 /* FormTextFieldCell.swift */; };
+		B5729C1C328395C69DADEF10ECD56EE0 /* LabelViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A36E196D2B1A3DF82DE34419E4E93 /* LabelViewFormer.swift */; };
+		B58D53F8B6565779B62D6FFE49C3253B /* FormSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B752ACE2A74AD7AD9A1CBA87237EA7C /* FormSegmentedCell.swift */; };
+		B810B7AE9BC3001DF1D7C359F2A6D199 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CA45790125434F0010460612E87CD /* SCLExtensions.swift */; };
+		BBFB67C50B82DECA17A136C35C15438C /* BaseRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626D711561B592BB80CAE8A854F6363C /* BaseRowFormer.swift */; };
 		C3FBC111D8574F29816AB322CE1067BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		C4AE8A38FDC9570C4CC436154A9D4CAC /* SectionFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0166463A66332066C021CDE574A5C01B /* SectionFormer.swift */; };
-		C5F215094C2681535E9F9A49AD6A6FBE /* FormTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF2A33B2CEE612677661F32272B7E7E /* FormTextViewCell.swift */; };
-		C69E16BA4B29E974C6162C2EB64B72F5 /* DatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C2ED6B15163D1C393A6DE65197215F /* DatePickerRowFormer.swift */; };
-		CE7C6D64C81DD144594F04A28D2F139C /* CheckRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455EC0AAC12805E2FA755861A57B072C /* CheckRowFormer.swift */; };
-		D3B3C4959E87242CE3DA4E7C39BEA5B1 /* FormSelectorPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D2F71DF91F62EA10FFBF69C5749A50 /* FormSelectorPickerCell.swift */; };
-		D7096844778FD786DEA1FF19EDE57DD8 /* Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DF8C4B5388C4B1BAF150383909041 /* Former.swift */; };
-		D9C338868E91B8ADFF37848BF3B469B5 /* TextViewRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59455CBE0A44977516306AF56650738 /* TextViewRowFormer.swift */; };
-		DA7536D00F56D42625FC9D1F8A8D6A0A /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A8F88FCDD7F23F170C3C841821D48 /* FormCell.swift */; };
-		DCC21235139A2A7B308BB095736BCF3A /* SliderRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBA80DA80A29008F472A6F9053D7BEF /* SliderRowFormer.swift */; };
-		ECF68AB0AB6628F958358DA4DB6AF4B5 /* InlineDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BED4006D5A129A0CA903646ADF45C4 /* InlineDatePickerRowFormer.swift */; };
-		EFD3F3570A5F9EA4265063278BC78A45 /* FormLabelFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200512C91F242BDCCEB376A0B4533D80 /* FormLabelFooterView.swift */; };
-		F0503EA578467F96230C8593BB3D26A5 /* Pods-sushiOle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E6BB385D7542AFC36724FCF9DB977E /* Pods-sushiOle-dummy.m */; };
-		F605F8E6F29D12C15B687BF682531555 /* StepperRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D434D3545D324D1A30FCA6011E2763 /* StepperRowFormer.swift */; };
-		F95AD2DEE354C9219E492908B3741F7A /* UITableViewCell+Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9192B4797364BC0DAA375967986CE2F /* UITableViewCell+Former.swift */; };
-		F9C5FEA6B4EEEC9F348A7781D55DD101 /* FormInlineDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04D35E370F9F18717BA72580F45B73 /* FormInlineDatePickerCell.swift */; };
-		FD7D88BEDD0AE05917D12C317D1FB70C /* Former.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFAE7C4B51043B403C8FF6AE6059850 /* Former.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4AE8A38FDC9570C4CC436154A9D4CAC /* SectionFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E4DDDEF33DB405DE9FC33EBC97E38 /* SectionFormer.swift */; };
+		C5F215094C2681535E9F9A49AD6A6FBE /* FormTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D44F947361A4E5ACF62EFFA7FAC5B /* FormTextViewCell.swift */; };
+		C69E16BA4B29E974C6162C2EB64B72F5 /* DatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D318572AD2FBDE9E4CAA5F78D943B /* DatePickerRowFormer.swift */; };
+		CE7C6D64C81DD144594F04A28D2F139C /* CheckRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200CFDE9908936E6C873551B566396F7 /* CheckRowFormer.swift */; };
+		D3B3C4959E87242CE3DA4E7C39BEA5B1 /* FormSelectorPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5B144A199EBAFC99991AD0312C32AE /* FormSelectorPickerCell.swift */; };
+		D7096844778FD786DEA1FF19EDE57DD8 /* Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED9D73196836B7E2DF700D721870E0 /* Former.swift */; };
+		D9C338868E91B8ADFF37848BF3B469B5 /* TextViewRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20738A85B9E5B581BB7C3CF26047815E /* TextViewRowFormer.swift */; };
+		DA7536D00F56D42625FC9D1F8A8D6A0A /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4203F9CB960B0B89FED9293FBBF5EED /* FormCell.swift */; };
+		DCC21235139A2A7B308BB095736BCF3A /* SliderRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902145D92FA1EA80E3765635D7D37A40 /* SliderRowFormer.swift */; };
+		ECF68AB0AB6628F958358DA4DB6AF4B5 /* InlineDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D511660D2B711C20ED615634A5EA60 /* InlineDatePickerRowFormer.swift */; };
+		EFD3F3570A5F9EA4265063278BC78A45 /* FormLabelFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3359112E13E5F1E61BE965393F2E4E2 /* FormLabelFooterView.swift */; };
+		F605F8E6F29D12C15B687BF682531555 /* StepperRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6ACE6480DF42F2700F634166CC8609 /* StepperRowFormer.swift */; };
+		F95AD2DEE354C9219E492908B3741F7A /* UITableViewCell+Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F3DC80EEDF10597030882B65F2576F /* UITableViewCell+Former.swift */; };
+		F9C5FEA6B4EEEC9F348A7781D55DD101 /* FormInlineDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA3C2A6A2CAB08AD8FBDF23104D4F /* FormInlineDatePickerCell.swift */; };
+		FD7D88BEDD0AE05917D12C317D1FB70C /* Former.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCA92959D03F0C901AFEC3886E93FBB /* Former.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4AD8E060A92E64F62AE4A51001393A65 /* PBXContainerItemProxy */ = {
+		4C86CDEDB0A42DC6C4E77B37D0469E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86DD7C7B19037147828796411FEC487B;
+			remoteInfo = SCLAlertView;
+		};
+		68B6C6BCC697ED6DF1363FA5E619ABAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -72,81 +84,91 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0166463A66332066C021CDE574A5C01B /* SectionFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionFormer.swift; path = Former/Commons/SectionFormer.swift; sourceTree = "<group>"; };
-		018CB0A5E48415B6FAC01F1F574F018A /* Former.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Former.xcconfig; sourceTree = "<group>"; };
-		117CBA648130F05BFC4557F075FA6B17 /* InlinePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlinePickerRowFormer.swift; path = Former/RowFormers/InlinePickerRowFormer.swift; sourceTree = "<group>"; };
-		12F09A2400F3BCA5466400D256B8E90D /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
-		14E636461F514B36300C2D7C4F30D316 /* SwitchRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRowFormer.swift; path = Former/RowFormers/SwitchRowFormer.swift; sourceTree = "<group>"; };
-		200512C91F242BDCCEB376A0B4533D80 /* FormLabelFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelFooterView.swift; path = Former/Views/FormLabelFooterView.swift; sourceTree = "<group>"; };
-		22854D43F871B9BB2A9A05CD25649F28 /* FormCheckCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCheckCell.swift; path = Former/Cells/FormCheckCell.swift; sourceTree = "<group>"; };
+		00B864D8B05660F18B051BE84E12E656 /* FormCheckCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCheckCell.swift; path = Former/Cells/FormCheckCell.swift; sourceTree = "<group>"; };
+		028A051D64969BFB3954F9740B805FD2 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		1140C6CCD140D9A11102A3B0D06B89A0 /* Former-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-umbrella.h"; sourceTree = "<group>"; };
+		11B1AE2048E0E3D493867D15C6592E6B /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		15F3DC80EEDF10597030882B65F2576F /* UITableViewCell+Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+Former.swift"; path = "Former/Helpers/UITableViewCell+Former.swift"; sourceTree = "<group>"; };
+		163A36E196D2B1A3DF82DE34419E4E93 /* LabelViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelViewFormer.swift; path = Former/ViewFormers/LabelViewFormer.swift; sourceTree = "<group>"; };
+		168FA3C2A6A2CAB08AD8FBDF23104D4F /* FormInlineDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlineDatePickerCell.swift; path = Former/Cells/FormInlineDatePickerCell.swift; sourceTree = "<group>"; };
+		19D511660D2B711C20ED615634A5EA60 /* InlineDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineDatePickerRowFormer.swift; path = Former/RowFormers/InlineDatePickerRowFormer.swift; sourceTree = "<group>"; };
+		1C4612794B91167FEDA294D62F195F00 /* CustomRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomRowFormer.swift; path = Former/RowFormers/CustomRowFormer.swift; sourceTree = "<group>"; };
+		1D6D44F947361A4E5ACF62EFFA7FAC5B /* FormTextViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextViewCell.swift; path = Former/Cells/FormTextViewCell.swift; sourceTree = "<group>"; };
+		200CFDE9908936E6C873551B566396F7 /* CheckRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRowFormer.swift; path = Former/RowFormers/CheckRowFormer.swift; sourceTree = "<group>"; };
+		202189E2206978E828ED05D0C1990649 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20738A85B9E5B581BB7C3CF26047815E /* TextViewRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewRowFormer.swift; path = Former/RowFormers/TextViewRowFormer.swift; sourceTree = "<group>"; };
 		23D779C65850B634B278551CAFEE3EBE /* Pods-sushiOle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sushiOle.release.xcconfig"; sourceTree = "<group>"; };
 		2533B134401551882594CD2CA0789CAD /* Pods-sushiOle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-sushiOle.modulemap"; sourceTree = "<group>"; };
 		27922CFD07CE65071FD783EB39550560 /* Pods-sushiOle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sushiOle-umbrella.h"; sourceTree = "<group>"; };
-		28BED4006D5A129A0CA903646ADF45C4 /* InlineDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineDatePickerRowFormer.swift; path = Former/RowFormers/InlineDatePickerRowFormer.swift; sourceTree = "<group>"; };
-		28EBF73A4197F2B70134B8F4D2F71D24 /* BaseRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRowFormer.swift; path = Former/RowFormers/BaseRowFormer.swift; sourceTree = "<group>"; };
-		29A32075515923CEF4206E1825B231B4 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		2A0CCE22B320D6EEBCB4D79E90BAAD75 /* FormSwitchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSwitchCell.swift; path = Former/Cells/FormSwitchCell.swift; sourceTree = "<group>"; };
-		2EF2A33B2CEE612677661F32272B7E7E /* FormTextViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextViewCell.swift; path = Former/Cells/FormTextViewCell.swift; sourceTree = "<group>"; };
+		2F6ACE6480DF42F2700F634166CC8609 /* StepperRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRowFormer.swift; path = Former/RowFormers/StepperRowFormer.swift; sourceTree = "<group>"; };
 		3171826C3C563953B99225F6A0B42B27 /* Pods-sushiOle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sushiOle-frameworks.sh"; sourceTree = "<group>"; };
+		330552BFA605AD16B6AC07B9CCBC1FD5 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		358536CB530D12CAC1B15274E439E70A /* RowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowFormer.swift; path = Former/Commons/RowFormer.swift; sourceTree = "<group>"; };
 		376257B3510AA739147D7FC6BDD7F2AB /* Pods-sushiOle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sushiOle-resources.sh"; sourceTree = "<group>"; };
-		378755CE970282B5318511E27284610A /* SelectorDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorDatePickerRowFormer.swift; path = Former/RowFormers/SelectorDatePickerRowFormer.swift; sourceTree = "<group>"; };
-		3A03F0A949CA60967DFEB76764830C9C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		3CB5D84CB6FD8A45772876A7ABC65636 /* Pods_sushiOle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sushiOle.framework; path = "Pods-sushiOle.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F552151837B1D56CB74C52C58268170 /* CustomViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomViewFormer.swift; path = Former/ViewFormers/CustomViewFormer.swift; sourceTree = "<group>"; };
-		4549C5BA3AA1E175BC115CAD2C4670A6 /* FormInlinePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlinePickerCell.swift; path = Former/Cells/FormInlinePickerCell.swift; sourceTree = "<group>"; };
-		455EC0AAC12805E2FA755861A57B072C /* CheckRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRowFormer.swift; path = Former/RowFormers/CheckRowFormer.swift; sourceTree = "<group>"; };
-		460CBE24E9E14F9DD016513C30E77A21 /* TextFieldRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldRowFormer.swift; path = Former/RowFormers/TextFieldRowFormer.swift; sourceTree = "<group>"; };
-		472BB13F930011E74480BCD23CE3EB76 /* Former-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Former-dummy.m"; sourceTree = "<group>"; };
-		4A9176198894851EA4540EC4E6E76760 /* FormTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldCell.swift; path = Former/Cells/FormTextFieldCell.swift; sourceTree = "<group>"; };
-		50D4E69512DF17BE9245BB9181D5A3DA /* CustomRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomRowFormer.swift; path = Former/RowFormers/CustomRowFormer.swift; sourceTree = "<group>"; };
+		391409714E9A5DECD5D9C9BF204C3C64 /* FormTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldCell.swift; path = Former/Cells/FormTextFieldCell.swift; sourceTree = "<group>"; };
+		3A1CA45790125434F0010460612E87CD /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		3BC9677504ED00C890475AE43C2B4806 /* PickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRowFormer.swift; path = Former/RowFormers/PickerRowFormer.swift; sourceTree = "<group>"; };
+		41D60E7DF7A9549D55411F5E8628935E /* LabelRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRowFormer.swift; path = Former/RowFormers/LabelRowFormer.swift; sourceTree = "<group>"; };
+		43ED9D73196836B7E2DF700D721870E0 /* Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Former.swift; path = Former/Commons/Former.swift; sourceTree = "<group>"; };
+		4B5B144A199EBAFC99991AD0312C32AE /* FormSelectorPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorPickerCell.swift; path = Former/Cells/FormSelectorPickerCell.swift; sourceTree = "<group>"; };
+		4FFCD62E9FF9CEE9C8FB874242AAAF5F /* FormerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormerProtocol.swift; path = Former/Commons/FormerProtocol.swift; sourceTree = "<group>"; };
+		5407F9F687D1F64A49E3F8A5D5D44BA8 /* SelectorDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorDatePickerRowFormer.swift; path = Former/RowFormers/SelectorDatePickerRowFormer.swift; sourceTree = "<group>"; };
+		550B688F987B2023ED2EB536966A1289 /* Former.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Former.xcconfig; sourceTree = "<group>"; };
 		553C0B064391C8250176374454BE68F6 /* Pods-sushiOle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sushiOle-acknowledgements.plist"; sourceTree = "<group>"; };
-		55756B38FBEE04039C2EF22097375CA2 /* FormerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormerProtocol.swift; path = Former/Commons/FormerProtocol.swift; sourceTree = "<group>"; };
-		5746CF79921F42E35F24024EB1369EB6 /* FormSelectorDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorDatePickerCell.swift; path = Former/Cells/FormSelectorDatePickerCell.swift; sourceTree = "<group>"; };
-		5997D80C214B7A49968B326BFC1EF4A0 /* FormLabelCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelCell.swift; path = Former/Cells/FormLabelCell.swift; sourceTree = "<group>"; };
-		5A776E27261FF15C789E18432E4600E7 /* FormDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDatePickerCell.swift; path = Former/Cells/FormDatePickerCell.swift; sourceTree = "<group>"; };
-		5CC92F16FF1520C8B0DD48184875177C /* Former.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Former.modulemap; sourceTree = "<group>"; };
-		5FF718AA88A6D86C97FC9926A6B53976 /* SelectorPickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorPickerRowFormer.swift; path = Former/RowFormers/SelectorPickerRowFormer.swift; sourceTree = "<group>"; };
+		57FF4A26E02BCDC6776AAA43A8E71D27 /* FormHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormHeaderFooterView.swift; path = Former/Views/FormHeaderFooterView.swift; sourceTree = "<group>"; };
+		5A39ED5CBA6B96ED0B408321F99D50F5 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		5A7DB3727978298AE96028A8C53582F6 /* FormStepperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormStepperCell.swift; path = Former/Cells/FormStepperCell.swift; sourceTree = "<group>"; };
+		5B752ACE2A74AD7AD9A1CBA87237EA7C /* FormSegmentedCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSegmentedCell.swift; path = Former/Cells/FormSegmentedCell.swift; sourceTree = "<group>"; };
+		5BE8AEA3226BDB9588855924C491872C /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		5ED05F629E086D244D856C57EB8C0FBF /* Pods_sushiOle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sushiOle.framework; path = "Pods-sushiOle.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F89A663A6027D76A8C919CD1A1D2F50 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		616BA8C2178C4A5402F6866D97D77694 /* FormInlinePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlinePickerCell.swift; path = Former/Cells/FormInlinePickerCell.swift; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		64BA4FE592A31AE6A7FA619FB0892049 /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormViewController.swift; path = Former/Controllers/FormViewController.swift; sourceTree = "<group>"; };
-		65717BC3C23E208738F0C6D970170EF1 /* FormLabelHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelHeaderView.swift; path = Former/Views/FormLabelHeaderView.swift; sourceTree = "<group>"; };
-		6A7868E0A805EE0C9683B6E6A2C18E89 /* Former-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-umbrella.h"; sourceTree = "<group>"; };
-		6C83A365E29A480D7AE781608EF21A6B /* Former-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-prefix.pch"; sourceTree = "<group>"; };
-		713DF8C4B5388C4B1BAF150383909041 /* Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Former.swift; path = Former/Commons/Former.swift; sourceTree = "<group>"; };
-		73E487A1750BD379E1DC57F33852E156 /* LabelViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelViewFormer.swift; path = Former/ViewFormers/LabelViewFormer.swift; sourceTree = "<group>"; };
-		74CA71E9DE2A50867647418A4AC2B43B /* ViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewFormer.swift; path = Former/Commons/ViewFormer.swift; sourceTree = "<group>"; };
-		76D434D3545D324D1A30FCA6011E2763 /* StepperRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRowFormer.swift; path = Former/RowFormers/StepperRowFormer.swift; sourceTree = "<group>"; };
-		7BBA80DA80A29008F472A6F9053D7BEF /* SliderRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRowFormer.swift; path = Former/RowFormers/SliderRowFormer.swift; sourceTree = "<group>"; };
+		626D711561B592BB80CAE8A854F6363C /* BaseRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRowFormer.swift; path = Former/RowFormers/BaseRowFormer.swift; sourceTree = "<group>"; };
+		66D0884960542C20E58208AB5901B586 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		67B5FB540552E2CD4E9E176A8971B1B5 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		69468140E1F3CB2EDAC1257DC9CA92EF /* FormSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSliderCell.swift; path = Former/Cells/FormSliderCell.swift; sourceTree = "<group>"; };
+		71D632582D1DEAEA86B80F65586DD2B1 /* BaseViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseViewFormer.swift; path = Former/ViewFormers/BaseViewFormer.swift; sourceTree = "<group>"; };
+		75933D7F1846952F1672A334B35F50A1 /* FormLabelCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelCell.swift; path = Former/Cells/FormLabelCell.swift; sourceTree = "<group>"; };
+		7B142A800A5874325A23A4E33C2F8537 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		7BD1B46525BE435909E426396F254C0A /* TextFieldRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldRowFormer.swift; path = Former/RowFormers/TextFieldRowFormer.swift; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8018001650AA960920A346FC0A203A0F /* FormPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPickerCell.swift; path = Former/Cells/FormPickerCell.swift; sourceTree = "<group>"; };
-		8018C0880F7D8AA0C22B39DD28AAF4AD /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		805B54BC2994ACA1479F16B7FEA0C203 /* FormSegmentedCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSegmentedCell.swift; path = Former/Cells/FormSegmentedCell.swift; sourceTree = "<group>"; };
-		83C2ED6B15163D1C393A6DE65197215F /* DatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRowFormer.swift; path = Former/RowFormers/DatePickerRowFormer.swift; sourceTree = "<group>"; };
-		85D2F71DF91F62EA10FFBF69C5749A50 /* FormSelectorPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorPickerCell.swift; path = Former/Cells/FormSelectorPickerCell.swift; sourceTree = "<group>"; };
+		812B877A031ECA355165ADC01D3B7B2A /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
 		89E6BB385D7542AFC36724FCF9DB977E /* Pods-sushiOle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sushiOle-dummy.m"; sourceTree = "<group>"; };
-		8E1A425C0C638078FB4698E6969E1DD7 /* RowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowFormer.swift; path = Former/Commons/RowFormer.swift; sourceTree = "<group>"; };
+		8F144B7E48AA00316C746810C098E828 /* Former.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Former.modulemap; sourceTree = "<group>"; };
+		8FCA92959D03F0C901AFEC3886E93FBB /* Former.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Former.h; path = Former/Former.h; sourceTree = "<group>"; };
+		902145D92FA1EA80E3765635D7D37A40 /* SliderRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRowFormer.swift; path = Former/RowFormers/SliderRowFormer.swift; sourceTree = "<group>"; };
+		917F1463BE0A1FAE6F1B76E1B9CF7CC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939A73DECAC75A267FE53CB2994FEDD5 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E04D35E370F9F18717BA72580F45B73 /* FormInlineDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlineDatePickerCell.swift; path = Former/Cells/FormInlineDatePickerCell.swift; sourceTree = "<group>"; };
-		A017337A22068FF1E498AD398DB6D3A5 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
-		A0C8C3C48F5089FA9B39D28DB3F2ECB2 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		A5D0782F7B4A6AD393252160D660405F /* FormStepperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormStepperCell.swift; path = Former/Cells/FormStepperCell.swift; sourceTree = "<group>"; };
-		A79E30F671EBCD2FCDFC4E18AAB9DD17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7DAB1938B0081FDCCE63196B38DD673 /* FormSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSliderCell.swift; path = Former/Cells/FormSliderCell.swift; sourceTree = "<group>"; };
+		9A8D318572AD2FBDE9E4CAA5F78D943B /* DatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRowFormer.swift; path = Former/RowFormers/DatePickerRowFormer.swift; sourceTree = "<group>"; };
+		A5F89ED0E3C9BAA003B7CB4B60579F4A /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		A69AC4D48E945BF0FDC17B4BB1FC52BC /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormViewController.swift; path = Former/Controllers/FormViewController.swift; sourceTree = "<group>"; };
+		A920DF1DFC7E45EB56660FCEE18DB661 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		AAF61B24C376723DC64980F86C1DAA72 /* ViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewFormer.swift; path = Former/Commons/ViewFormer.swift; sourceTree = "<group>"; };
+		AE184058F91453BC35A60CCF21309876 /* SelectorPickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorPickerRowFormer.swift; path = Former/RowFormers/SelectorPickerRowFormer.swift; sourceTree = "<group>"; };
 		B27679E86226ED0C18725E6B08F5D69D /* Pods-sushiOle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sushiOle.debug.xcconfig"; sourceTree = "<group>"; };
-		B77A8F88FCDD7F23F170C3C841821D48 /* FormCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCell.swift; path = Former/Cells/FormCell.swift; sourceTree = "<group>"; };
-		BBFB1BEA2E390573796DF3B1F49E6780 /* LabelRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRowFormer.swift; path = Former/RowFormers/LabelRowFormer.swift; sourceTree = "<group>"; };
-		C382D031EE52C5C45C8FDDBA853F6870 /* SegmentedRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRowFormer.swift; path = Former/RowFormers/SegmentedRowFormer.swift; sourceTree = "<group>"; };
-		C9192B4797364BC0DAA375967986CE2F /* UITableViewCell+Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+Former.swift"; path = "Former/Helpers/UITableViewCell+Former.swift"; sourceTree = "<group>"; };
-		CE2270D005A9A931F2CEDEC83B3A1D92 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
-		CFBF3B9B0EC432821877CD1F5A1A1FC6 /* Former.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Former.framework; path = Former.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5F3CAA95F89E10749C13650C32C3322 /* PickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRowFormer.swift; path = Former/RowFormers/PickerRowFormer.swift; sourceTree = "<group>"; };
-		DAD108D4E5C6DEE2282764D63390DD02 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		E59455CBE0A44977516306AF56650738 /* TextViewRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewRowFormer.swift; path = Former/RowFormers/TextViewRowFormer.swift; sourceTree = "<group>"; };
-		E947D368BC38889A768815BF4D92CD40 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		EE0D86403D0AFD53E4E0A01EF117F114 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		EEFAE7C4B51043B403C8FF6AE6059850 /* Former.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Former.h; path = Former/Former.h; sourceTree = "<group>"; };
+		B2FD50CD5711B080FFFFA8A7ED7C0FF0 /* Former-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-prefix.pch"; sourceTree = "<group>"; };
+		B6F93A8363189E0D211750B1B97713E0 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		BA0CE15D91AEF68E3D28CB099ABDE330 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8EB05CA543632DA819C5A1AA1101B7 /* SwitchRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRowFormer.swift; path = Former/RowFormers/SwitchRowFormer.swift; sourceTree = "<group>"; };
+		BED02AC80A25285CCE71FC07B20B06B4 /* FormDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDatePickerCell.swift; path = Former/Cells/FormDatePickerCell.swift; sourceTree = "<group>"; };
+		C1CBE98227983204F6A493953AC2A2AF /* FormPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPickerCell.swift; path = Former/Cells/FormPickerCell.swift; sourceTree = "<group>"; };
+		C3E47A330C6C164B0C5857908CCD1DA0 /* SegmentedRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRowFormer.swift; path = Former/RowFormers/SegmentedRowFormer.swift; sourceTree = "<group>"; };
+		C9C4966063D0E62E2AFF245F682203C2 /* Former.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Former.framework; path = Former.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE60963F2B8726030E06F69100EC1F9 /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		CD9CD18E0675391A272799F26756B3F1 /* CustomViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomViewFormer.swift; path = Former/ViewFormers/CustomViewFormer.swift; sourceTree = "<group>"; };
+		CE6E4DDDEF33DB405DE9FC33EBC97E38 /* SectionFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionFormer.swift; path = Former/Commons/SectionFormer.swift; sourceTree = "<group>"; };
+		D471820931F2FA6F8F475BFF9C1A6482 /* InlinePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlinePickerRowFormer.swift; path = Former/RowFormers/InlinePickerRowFormer.swift; sourceTree = "<group>"; };
+		DBDE9F3D86858936020050F99B3100A1 /* FormSwitchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSwitchCell.swift; path = Former/Cells/FormSwitchCell.swift; sourceTree = "<group>"; };
+		E2921B08D0D8C23D724FFC54EE8634B2 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		E397B83029D03DBCBC9898398931D97B /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		ECFC991BD4B8CA3DF077D604DB288B4B /* FormSelectorDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorDatePickerCell.swift; path = Former/Cells/FormSelectorDatePickerCell.swift; sourceTree = "<group>"; };
 		F12B8797509AB3E29164F8D1A7BBD63A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2A1972ECEE56A71D510119C4CD1F10D /* BaseViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseViewFormer.swift; path = Former/ViewFormers/BaseViewFormer.swift; sourceTree = "<group>"; };
-		F62372C593B2B89E233C53F0C23E6804 /* FormHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormHeaderFooterView.swift; path = Former/Views/FormHeaderFooterView.swift; sourceTree = "<group>"; };
+		F3359112E13E5F1E61BE965393F2E4E2 /* FormLabelFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelFooterView.swift; path = Former/Views/FormLabelFooterView.swift; sourceTree = "<group>"; };
+		F4203F9CB960B0B89FED9293FBBF5EED /* FormCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCell.swift; path = Former/Cells/FormCell.swift; sourceTree = "<group>"; };
+		F59E6B98CADFA8BBE5FED98723CD8A8B /* FormLabelHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelHeaderView.swift; path = Former/Views/FormLabelHeaderView.swift; sourceTree = "<group>"; };
+		FCDFB9E92E94D713FFBB070069AA9B14 /* Former-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Former-dummy.m"; sourceTree = "<group>"; };
 		FF1049EB5AB020DAAFCDAEBC44F78061 /* Pods-sushiOle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sushiOle-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,40 +182,183 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		934C17839764BDC40F8862693C247540 /* Frameworks */ = {
+		50E6FB50528422C41B5E551F8ADBC9BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AB82E65953212889AB0DD3064EFC5CF /* Foundation.framework in Frameworks */,
+				715623E08A0E4F43CFE1E16A5C25684A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E6023C434739CEC31CE6A9815C0414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F01C6A3943AC431E4F66C636E13DF2E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		184EB06A563650BE4B0EF6AD4166C624 /* Frameworks */ = {
+		00190509BC0F24C2A632F7BF6AC3E30C /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				3A03F0A949CA60967DFEB76764830C9C /* FirebaseAnalytics.framework */,
+				1A50AE5F72186F1925D8A4FA4EF50FB8 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		1912934537C0E693FF3D699F0B15CDA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67B5FB540552E2CD4E9E176A8971B1B5 /* FirebaseStorage.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1D71DECC4F274B800F87B25910B55FEA /* GoogleSymbolUtilities */ = {
+		1A50AE5F72186F1925D8A4FA4EF50FB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6AE45BC3B2682F1752A469CF03445908 /* Frameworks */,
+				939A73DECAC75A267FE53CB2994FEDD5 /* FirebaseDatabase.framework */,
 			);
-			name = GoogleSymbolUtilities;
-			path = GoogleSymbolUtilities;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		37A16E57CA1299D3661F12FBE26D9F22 /* Analytics */ = {
+		2374101DB26E0EAF913FDFAC9F255AE2 /* Former */ = {
 			isa = PBXGroup;
 			children = (
-				12F09A2400F3BCA5466400D256B8E90D /* Firebase.h */,
+				626D711561B592BB80CAE8A854F6363C /* BaseRowFormer.swift */,
+				71D632582D1DEAEA86B80F65586DD2B1 /* BaseViewFormer.swift */,
+				200CFDE9908936E6C873551B566396F7 /* CheckRowFormer.swift */,
+				1C4612794B91167FEDA294D62F195F00 /* CustomRowFormer.swift */,
+				CD9CD18E0675391A272799F26756B3F1 /* CustomViewFormer.swift */,
+				9A8D318572AD2FBDE9E4CAA5F78D943B /* DatePickerRowFormer.swift */,
+				F4203F9CB960B0B89FED9293FBBF5EED /* FormCell.swift */,
+				00B864D8B05660F18B051BE84E12E656 /* FormCheckCell.swift */,
+				BED02AC80A25285CCE71FC07B20B06B4 /* FormDatePickerCell.swift */,
+				8FCA92959D03F0C901AFEC3886E93FBB /* Former.h */,
+				43ED9D73196836B7E2DF700D721870E0 /* Former.swift */,
+				4FFCD62E9FF9CEE9C8FB874242AAAF5F /* FormerProtocol.swift */,
+				57FF4A26E02BCDC6776AAA43A8E71D27 /* FormHeaderFooterView.swift */,
+				168FA3C2A6A2CAB08AD8FBDF23104D4F /* FormInlineDatePickerCell.swift */,
+				616BA8C2178C4A5402F6866D97D77694 /* FormInlinePickerCell.swift */,
+				75933D7F1846952F1672A334B35F50A1 /* FormLabelCell.swift */,
+				F3359112E13E5F1E61BE965393F2E4E2 /* FormLabelFooterView.swift */,
+				F59E6B98CADFA8BBE5FED98723CD8A8B /* FormLabelHeaderView.swift */,
+				C1CBE98227983204F6A493953AC2A2AF /* FormPickerCell.swift */,
+				5B752ACE2A74AD7AD9A1CBA87237EA7C /* FormSegmentedCell.swift */,
+				ECFC991BD4B8CA3DF077D604DB288B4B /* FormSelectorDatePickerCell.swift */,
+				4B5B144A199EBAFC99991AD0312C32AE /* FormSelectorPickerCell.swift */,
+				69468140E1F3CB2EDAC1257DC9CA92EF /* FormSliderCell.swift */,
+				5A7DB3727978298AE96028A8C53582F6 /* FormStepperCell.swift */,
+				DBDE9F3D86858936020050F99B3100A1 /* FormSwitchCell.swift */,
+				391409714E9A5DECD5D9C9BF204C3C64 /* FormTextFieldCell.swift */,
+				1D6D44F947361A4E5ACF62EFFA7FAC5B /* FormTextViewCell.swift */,
+				A69AC4D48E945BF0FDC17B4BB1FC52BC /* FormViewController.swift */,
+				19D511660D2B711C20ED615634A5EA60 /* InlineDatePickerRowFormer.swift */,
+				D471820931F2FA6F8F475BFF9C1A6482 /* InlinePickerRowFormer.swift */,
+				41D60E7DF7A9549D55411F5E8628935E /* LabelRowFormer.swift */,
+				163A36E196D2B1A3DF82DE34419E4E93 /* LabelViewFormer.swift */,
+				3BC9677504ED00C890475AE43C2B4806 /* PickerRowFormer.swift */,
+				358536CB530D12CAC1B15274E439E70A /* RowFormer.swift */,
+				CE6E4DDDEF33DB405DE9FC33EBC97E38 /* SectionFormer.swift */,
+				C3E47A330C6C164B0C5857908CCD1DA0 /* SegmentedRowFormer.swift */,
+				5407F9F687D1F64A49E3F8A5D5D44BA8 /* SelectorDatePickerRowFormer.swift */,
+				AE184058F91453BC35A60CCF21309876 /* SelectorPickerRowFormer.swift */,
+				902145D92FA1EA80E3765635D7D37A40 /* SliderRowFormer.swift */,
+				2F6ACE6480DF42F2700F634166CC8609 /* StepperRowFormer.swift */,
+				BE8EB05CA543632DA819C5A1AA1101B7 /* SwitchRowFormer.swift */,
+				7BD1B46525BE435909E426396F254C0A /* TextFieldRowFormer.swift */,
+				20738A85B9E5B581BB7C3CF26047815E /* TextViewRowFormer.swift */,
+				15F3DC80EEDF10597030882B65F2576F /* UITableViewCell+Former.swift */,
+				AAF61B24C376723DC64980F86C1DAA72 /* ViewFormer.swift */,
+				2CE023007EDCAF0CCACA79D396782293 /* Support Files */,
 			);
-			name = Analytics;
+			name = Former;
+			path = Former;
+			sourceTree = "<group>";
+		};
+		244AF0251B79140C9A24A8D6030FE25E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2921B08D0D8C23D724FFC54EE8634B2 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26570BA5E6D48C8869B3F15D80AA0F61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				917F1463BE0A1FAE6F1B76E1B9CF7CC2 /* Info.plist */,
+				11B1AE2048E0E3D493867D15C6592E6B /* SCLAlertView.modulemap */,
+				CCE60963F2B8726030E06F69100EC1F9 /* SCLAlertView.xcconfig */,
+				5A39ED5CBA6B96ED0B408321F99D50F5 /* SCLAlertView-dummy.m */,
+				7B142A800A5874325A23A4E33C2F8537 /* SCLAlertView-prefix.pch */,
+				5F89A663A6027D76A8C919CD1A1D2F50 /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		2AF6971E72A679AE82024BF1D5A626BA /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A36E3C262C4C806862689352284F555C /* Frameworks */,
+			);
+			name = GoogleNetworkingUtilities;
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		2C1D9FD36E02912C05326EACB15F3BB7 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				FB2E5707808E352307BAED0A48228280 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		2CE023007EDCAF0CCACA79D396782293 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F144B7E48AA00316C746810C098E828 /* Former.modulemap */,
+				550B688F987B2023ED2EB536966A1289 /* Former.xcconfig */,
+				FCDFB9E92E94D713FFBB070069AA9B14 /* Former-dummy.m */,
+				B2FD50CD5711B080FFFFA8A7ED7C0FF0 /* Former-prefix.pch */,
+				1140C6CCD140D9A11102A3B0D06B89A0 /* Former-umbrella.h */,
+				BA0CE15D91AEF68E3D28CB099ABDE330 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Former";
+			sourceTree = "<group>";
+		};
+		2FB81FA3B13D97E15E6305A7D318E56D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				330552BFA605AD16B6AC07B9CCBC1FD5 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33AAAF7CCD5E8200B4E5D4EED609CBCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76F505508266A60F132A0363750361CA /* Firebase */,
+				B70D874DFFA8E8CFE82209D1F6F7E074 /* FirebaseAnalytics */,
+				77A4AAE873E32C228EC2030EA0B4CC57 /* FirebaseAuth */,
+				00190509BC0F24C2A632F7BF6AC3E30C /* FirebaseDatabase */,
+				AC2DBC2DEAFF5FA90A4C2905998DEB90 /* FirebaseInstanceID */,
+				E8AE941FDE9FA94C827E93DE805B6A7E /* FirebaseStorage */,
+				2374101DB26E0EAF913FDFAC9F255AE2 /* Former */,
+				2C1D9FD36E02912C05326EACB15F3BB7 /* GoogleInterchangeUtilities */,
+				2AF6971E72A679AE82024BF1D5A626BA /* GoogleNetworkingUtilities */,
+				9EE24B9D3F9D39E47380F476A1A83704 /* GoogleSymbolUtilities */,
+				DEAB945D1F61DA9364FF72697BCE13AF /* GoogleUtilities */,
+				6964BC291958673847BEA3E38BC6F531 /* SCLAlertView */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		40FF7B23CDD90706FF71A729A385A198 /* Targets Support Files */ = {
@@ -212,73 +377,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		44CB0A79A319A8072E0B279B80DC07B5 /* FirebaseInstanceID */ = {
+		65F928A2DC1DBF0B09FBCF3328E1CD01 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				EE0D86403D0AFD53E4E0A01EF117F114 /* FIRInstanceID.h */,
-				FA4FE811E32F12F5C5A5B68E6EC95397 /* Frameworks */,
+				028A051D64969BFB3954F9740B805FD2 /* Firebase.h */,
 			);
-			name = FirebaseInstanceID;
-			path = FirebaseInstanceID;
+			name = Analytics;
 			sourceTree = "<group>";
 		};
-		4553EC414C4BD9A141543F7ECE8610F3 /* GoogleUtilities */ = {
+		6964BC291958673847BEA3E38BC6F531 /* SCLAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				B1AD380909941EAB2B8879711C0A1338 /* Frameworks */,
+				A920DF1DFC7E45EB56660FCEE18DB661 /* SCLAlertView.swift */,
+				3A1CA45790125434F0010460612E87CD /* SCLExtensions.swift */,
+				26570BA5E6D48C8869B3F15D80AA0F61 /* Support Files */,
 			);
-			name = GoogleUtilities;
-			path = GoogleUtilities;
+			name = SCLAlertView;
+			path = SCLAlertView;
 			sourceTree = "<group>";
 		};
-		5C2D22BBAF7CBDC5ED381330865D9EE5 /* Products */ = {
+		76F505508266A60F132A0363750361CA /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				CFBF3B9B0EC432821877CD1F5A1A1FC6 /* Former.framework */,
-				3CB5D84CB6FD8A45772876A7ABC65636 /* Pods_sushiOle.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6AE45BC3B2682F1752A469CF03445908 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E947D368BC38889A768815BF4D92CD40 /* GoogleSymbolUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6B1F4B2F64BDCC7988181A423EBF5ABD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CE2270D005A9A931F2CEDEC83B3A1D92 /* FirebaseStorage.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6D6E9975DEBB601A9F04097A9D98A1E1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DAD108D4E5C6DEE2282764D63390DD02 /* FirebaseDatabase.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		708013E747C76B70723E2C3A8E64D170 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				37A16E57CA1299D3661F12FBE26D9F22 /* Analytics */,
+				65F928A2DC1DBF0B09FBCF3328E1CD01 /* Analytics */,
 			);
 			name = Firebase;
 			path = Firebase;
 			sourceTree = "<group>";
 		};
-		74C87D0D01FB1894970F3BEC6B7FDDF3 /* Frameworks */ = {
+		77A4AAE873E32C228EC2030EA0B4CC57 /* FirebaseAuth */ = {
 			isa = PBXGroup;
 			children = (
-				A0C8C3C48F5089FA9B39D28DB3F2ECB2 /* GoogleInterchangeUtilities.framework */,
+				8D9A9A198869F62B638EF8C8A9B9C407 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = FirebaseAuth;
+			path = FirebaseAuth;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -286,70 +419,62 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				97FD6076CED9A0485C0B773DE9517019 /* Pods */,
-				5C2D22BBAF7CBDC5ED381330865D9EE5 /* Products */,
+				33AAAF7CCD5E8200B4E5D4EED609CBCC /* Pods */,
+				D9085F99F47CEDB6FF9E8D44ABF78A81 /* Products */,
 				40FF7B23CDD90706FF71A729A385A198 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		92D7FE0B549B98D191B6C5AB6489A5CA /* Frameworks */ = {
+		8D9A9A198869F62B638EF8C8A9B9C407 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				29A32075515923CEF4206E1825B231B4 /* GoogleNetworkingUtilities.framework */,
+				5BE8AEA3226BDB9588855924C491872C /* FirebaseAuth.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		97FD6076CED9A0485C0B773DE9517019 /* Pods */ = {
+		9EE24B9D3F9D39E47380F476A1A83704 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				708013E747C76B70723E2C3A8E64D170 /* Firebase */,
-				9FA9C3CBD00E0E4DCCEDED677CC3BA91 /* FirebaseAnalytics */,
-				CA858FFCDA7998A070F57AE3A29100AF /* FirebaseDatabase */,
-				44CB0A79A319A8072E0B279B80DC07B5 /* FirebaseInstanceID */,
-				AD7F5366657ECAAA4861F5D659FA5A4A /* FirebaseStorage */,
-				EE25433CC056B31717EF11B2F81AEE25 /* Former */,
-				FFE606B6DD686726B328C48145349907 /* GoogleInterchangeUtilities */,
-				FB8D1A53CD2D1002739432699D979406 /* GoogleNetworkingUtilities */,
-				1D71DECC4F274B800F87B25910B55FEA /* GoogleSymbolUtilities */,
-				4553EC414C4BD9A141543F7ECE8610F3 /* GoogleUtilities */,
+				2FB81FA3B13D97E15E6305A7D318E56D /* Frameworks */,
 			);
-			name = Pods;
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
-		9FA9C3CBD00E0E4DCCEDED677CC3BA91 /* FirebaseAnalytics */ = {
+		A36E3C262C4C806862689352284F555C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				184EB06A563650BE4B0EF6AD4166C624 /* Frameworks */,
+				66D0884960542C20E58208AB5901B586 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC2DBC2DEAFF5FA90A4C2905998DEB90 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				812B877A031ECA355165ADC01D3B7B2A /* FIRInstanceID.h */,
+				E53F8E8505C69B0AF5BD94B3FE5A242A /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		B70D874DFFA8E8CFE82209D1F6F7E074 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				BBE41F3581DE5C6651FF3D94E1D91AF3 /* Frameworks */,
 			);
 			name = FirebaseAnalytics;
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
-		AD7F5366657ECAAA4861F5D659FA5A4A /* FirebaseStorage */ = {
+		BBE41F3581DE5C6651FF3D94E1D91AF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6B1F4B2F64BDCC7988181A423EBF5ABD /* Frameworks */,
-			);
-			name = FirebaseStorage;
-			path = FirebaseStorage;
-			sourceTree = "<group>";
-		};
-		B1AD380909941EAB2B8879711C0A1338 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A017337A22068FF1E498AD398DB6D3A5 /* GoogleUtilities.framework */,
+				E397B83029D03DBCBC9898398931D97B /* FirebaseAnalytics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CA858FFCDA7998A070F57AE3A29100AF /* FirebaseDatabase */ = {
-			isa = PBXGroup;
-			children = (
-				6D6E9975DEBB601A9F04097A9D98A1E1 /* Frameworks */,
-			);
-			name = FirebaseDatabase;
-			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
 		D872876479E2A736E2D2CFF6BF665ECE /* Pods-sushiOle */ = {
@@ -370,6 +495,33 @@
 			path = "Target Support Files/Pods-sushiOle";
 			sourceTree = "<group>";
 		};
+		D9085F99F47CEDB6FF9E8D44ABF78A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C4966063D0E62E2AFF245F682203C2 /* Former.framework */,
+				5ED05F629E086D244D856C57EB8C0FBF /* Pods_sushiOle.framework */,
+				202189E2206978E828ED05D0C1990649 /* SCLAlertView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEAB945D1F61DA9364FF72697BCE13AF /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				244AF0251B79140C9A24A8D6030FE25E /* Frameworks */,
+			);
+			name = GoogleUtilities;
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		E53F8E8505C69B0AF5BD94B3FE5A242A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5F89ED0E3C9BAA003B7CB4B60579F4A /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,108 +531,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EE25433CC056B31717EF11B2F81AEE25 /* Former */ = {
+		E8AE941FDE9FA94C827E93DE805B6A7E /* FirebaseStorage */ = {
 			isa = PBXGroup;
 			children = (
-				28EBF73A4197F2B70134B8F4D2F71D24 /* BaseRowFormer.swift */,
-				F2A1972ECEE56A71D510119C4CD1F10D /* BaseViewFormer.swift */,
-				455EC0AAC12805E2FA755861A57B072C /* CheckRowFormer.swift */,
-				50D4E69512DF17BE9245BB9181D5A3DA /* CustomRowFormer.swift */,
-				3F552151837B1D56CB74C52C58268170 /* CustomViewFormer.swift */,
-				83C2ED6B15163D1C393A6DE65197215F /* DatePickerRowFormer.swift */,
-				B77A8F88FCDD7F23F170C3C841821D48 /* FormCell.swift */,
-				22854D43F871B9BB2A9A05CD25649F28 /* FormCheckCell.swift */,
-				5A776E27261FF15C789E18432E4600E7 /* FormDatePickerCell.swift */,
-				EEFAE7C4B51043B403C8FF6AE6059850 /* Former.h */,
-				713DF8C4B5388C4B1BAF150383909041 /* Former.swift */,
-				55756B38FBEE04039C2EF22097375CA2 /* FormerProtocol.swift */,
-				F62372C593B2B89E233C53F0C23E6804 /* FormHeaderFooterView.swift */,
-				9E04D35E370F9F18717BA72580F45B73 /* FormInlineDatePickerCell.swift */,
-				4549C5BA3AA1E175BC115CAD2C4670A6 /* FormInlinePickerCell.swift */,
-				5997D80C214B7A49968B326BFC1EF4A0 /* FormLabelCell.swift */,
-				200512C91F242BDCCEB376A0B4533D80 /* FormLabelFooterView.swift */,
-				65717BC3C23E208738F0C6D970170EF1 /* FormLabelHeaderView.swift */,
-				8018001650AA960920A346FC0A203A0F /* FormPickerCell.swift */,
-				805B54BC2994ACA1479F16B7FEA0C203 /* FormSegmentedCell.swift */,
-				5746CF79921F42E35F24024EB1369EB6 /* FormSelectorDatePickerCell.swift */,
-				85D2F71DF91F62EA10FFBF69C5749A50 /* FormSelectorPickerCell.swift */,
-				A7DAB1938B0081FDCCE63196B38DD673 /* FormSliderCell.swift */,
-				A5D0782F7B4A6AD393252160D660405F /* FormStepperCell.swift */,
-				2A0CCE22B320D6EEBCB4D79E90BAAD75 /* FormSwitchCell.swift */,
-				4A9176198894851EA4540EC4E6E76760 /* FormTextFieldCell.swift */,
-				2EF2A33B2CEE612677661F32272B7E7E /* FormTextViewCell.swift */,
-				64BA4FE592A31AE6A7FA619FB0892049 /* FormViewController.swift */,
-				28BED4006D5A129A0CA903646ADF45C4 /* InlineDatePickerRowFormer.swift */,
-				117CBA648130F05BFC4557F075FA6B17 /* InlinePickerRowFormer.swift */,
-				BBFB1BEA2E390573796DF3B1F49E6780 /* LabelRowFormer.swift */,
-				73E487A1750BD379E1DC57F33852E156 /* LabelViewFormer.swift */,
-				D5F3CAA95F89E10749C13650C32C3322 /* PickerRowFormer.swift */,
-				8E1A425C0C638078FB4698E6969E1DD7 /* RowFormer.swift */,
-				0166463A66332066C021CDE574A5C01B /* SectionFormer.swift */,
-				C382D031EE52C5C45C8FDDBA853F6870 /* SegmentedRowFormer.swift */,
-				378755CE970282B5318511E27284610A /* SelectorDatePickerRowFormer.swift */,
-				5FF718AA88A6D86C97FC9926A6B53976 /* SelectorPickerRowFormer.swift */,
-				7BBA80DA80A29008F472A6F9053D7BEF /* SliderRowFormer.swift */,
-				76D434D3545D324D1A30FCA6011E2763 /* StepperRowFormer.swift */,
-				14E636461F514B36300C2D7C4F30D316 /* SwitchRowFormer.swift */,
-				460CBE24E9E14F9DD016513C30E77A21 /* TextFieldRowFormer.swift */,
-				E59455CBE0A44977516306AF56650738 /* TextViewRowFormer.swift */,
-				C9192B4797364BC0DAA375967986CE2F /* UITableViewCell+Former.swift */,
-				74CA71E9DE2A50867647418A4AC2B43B /* ViewFormer.swift */,
-				F4789E6DADBD167A51936FE3A0729112 /* Support Files */,
+				1912934537C0E693FF3D699F0B15CDA3 /* Frameworks */,
 			);
-			name = Former;
-			path = Former;
+			name = FirebaseStorage;
+			path = FirebaseStorage;
 			sourceTree = "<group>";
 		};
-		F4789E6DADBD167A51936FE3A0729112 /* Support Files */ = {
+		FB2E5707808E352307BAED0A48228280 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5CC92F16FF1520C8B0DD48184875177C /* Former.modulemap */,
-				018CB0A5E48415B6FAC01F1F574F018A /* Former.xcconfig */,
-				472BB13F930011E74480BCD23CE3EB76 /* Former-dummy.m */,
-				6C83A365E29A480D7AE781608EF21A6B /* Former-prefix.pch */,
-				6A7868E0A805EE0C9683B6E6A2C18E89 /* Former-umbrella.h */,
-				A79E30F671EBCD2FCDFC4E18AAB9DD17 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Former";
-			sourceTree = "<group>";
-		};
-		FA4FE811E32F12F5C5A5B68E6EC95397 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8018C0880F7D8AA0C22B39DD28AAF4AD /* FirebaseInstanceID.framework */,
+				B6F93A8363189E0D211750B1B97713E0 /* GoogleInterchangeUtilities.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FB8D1A53CD2D1002739432699D979406 /* GoogleNetworkingUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				92D7FE0B549B98D191B6C5AB6489A5CA /* Frameworks */,
-			);
-			name = GoogleNetworkingUtilities;
-			path = GoogleNetworkingUtilities;
-			sourceTree = "<group>";
-		};
-		FFE606B6DD686726B328C48145349907 /* GoogleInterchangeUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				74C87D0D01FB1894970F3BEC6B7FDDF3 /* Frameworks */,
-			);
-			name = GoogleInterchangeUtilities;
-			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AD13A74527B49C74AAA4D71DA27886CB /* Headers */ = {
+		991EE7DD2A6785F4175F03846DE9F3D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E1F74652507ADCF0F0A08B0828379B2 /* Pods-sushiOle-umbrella.h in Headers */,
+				A6596E87371CD9F21D1434965CFD14AA /* Pods-sushiOle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23B8A60E5B780A23F883D1286A50A56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DEBBF64DB47438C0A7DDDF0317EA7F /* SCLAlertView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,22 +579,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		38EB359F2CBFD6C592B1406B7B7D11CA /* Pods-sushiOle */ = {
+		86DD7C7B19037147828796411FEC487B /* SCLAlertView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E29184D77794DD479CB115D6FE1BB9A /* Build configuration list for PBXNativeTarget "Pods-sushiOle" */;
+			buildConfigurationList = 606C1A565C19E5E64FB8349882972A7B /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
 			buildPhases = (
-				364C176223E1513DDD240A2BF0BBE431 /* Sources */,
-				934C17839764BDC40F8862693C247540 /* Frameworks */,
-				AD13A74527B49C74AAA4D71DA27886CB /* Headers */,
+				C7C7B7C3A1C0EFF306CF1217FE241245 /* Sources */,
+				50E6FB50528422C41B5E551F8ADBC9BF /* Frameworks */,
+				C23B8A60E5B780A23F883D1286A50A56 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9158D9F8C960984CCDE3CC7724F2568E /* PBXTargetDependency */,
 			);
-			name = "Pods-sushiOle";
-			productName = "Pods-sushiOle";
-			productReference = 3CB5D84CB6FD8A45772876A7ABC65636 /* Pods_sushiOle.framework */;
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 202189E2206978E828ED05D0C1990649 /* SCLAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A49653DE5C178056786C3F4942CA524F /* Former */ = {
@@ -528,7 +610,26 @@
 			);
 			name = Former;
 			productName = Former;
-			productReference = CFBF3B9B0EC432821877CD1F5A1A1FC6 /* Former.framework */;
+			productReference = C9C4966063D0E62E2AFF245F682203C2 /* Former.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB1810F7D5A543278AA4FE13F46AA632 /* Pods-sushiOle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA27D3C2A5C648B7D2C243B009F3A90 /* Build configuration list for PBXNativeTarget "Pods-sushiOle" */;
+			buildPhases = (
+				4D31A8A7EA10A1FFBC18B12C0B60C74A /* Sources */,
+				B2E6023C434739CEC31CE6A9815C0414 /* Frameworks */,
+				991EE7DD2A6785F4175F03846DE9F3D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AFD6DF650DF68FB7096D1DB3B92C2E7 /* PBXTargetDependency */,
+				EBBDFFFDE4BE6CB191A15EE03859788C /* PBXTargetDependency */,
+			);
+			name = "Pods-sushiOle";
+			productName = "Pods-sushiOle";
+			productReference = 5ED05F629E086D244D856C57EB8C0FBF /* Pods_sushiOle.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -548,22 +649,23 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5C2D22BBAF7CBDC5ED381330865D9EE5 /* Products */;
+			productRefGroup = D9085F99F47CEDB6FF9E8D44ABF78A81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A49653DE5C178056786C3F4942CA524F /* Former */,
-				38EB359F2CBFD6C592B1406B7B7D11CA /* Pods-sushiOle */,
+				EB1810F7D5A543278AA4FE13F46AA632 /* Pods-sushiOle */,
+				86DD7C7B19037147828796411FEC487B /* SCLAlertView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		364C176223E1513DDD240A2BF0BBE431 /* Sources */ = {
+		4D31A8A7EA10A1FFBC18B12C0B60C74A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0503EA578467F96230C8593BB3D26A5 /* Pods-sushiOle-dummy.m in Sources */,
+				23B3174372886F0109D396EF35F2A420 /* Pods-sushiOle-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,14 +721,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7C7B7C3A1C0EFF306CF1217FE241245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549B452B9E674C2769F042E88AE268F3 /* SCLAlertView-dummy.m in Sources */,
+				2AE9393A2ABB6F81945EE8279603B2E1 /* SCLAlertView.swift in Sources */,
+				B810B7AE9BC3001DF1D7C359F2A6D199 /* SCLExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9158D9F8C960984CCDE3CC7724F2568E /* PBXTargetDependency */ = {
+		0AFD6DF650DF68FB7096D1DB3B92C2E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Former;
 			target = A49653DE5C178056786C3F4942CA524F /* Former */;
-			targetProxy = 4AD8E060A92E64F62AE4A51001393A65 /* PBXContainerItemProxy */;
+			targetProxy = 68B6C6BCC697ED6DF1363FA5E619ABAE /* PBXContainerItemProxy */;
+		};
+		EBBDFFFDE4BE6CB191A15EE03859788C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = 86DD7C7B19037147828796411FEC487B /* SCLAlertView */;
+			targetProxy = 4C86CDEDB0A42DC6C4E77B37D0469E4E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -675,7 +793,40 @@
 			};
 			name = Debug;
 		};
-		9BA7E7F0BF63313123ED543D0EEEB3DC /* Release */ = {
+		3296127A3003E2618619AD188BFE48B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE60963F2B8726030E06F69100EC1F9 /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4438EC3DD2140EFCAC1480410C801578 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23D779C65850B634B278551CAFEE3EBE /* Pods-sushiOle.release.xcconfig */;
 			buildSettings = {
@@ -710,9 +861,77 @@
 			};
 			name = Release;
 		};
+		8504CF44455082EC18D109D5496AAB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27679E86226ED0C18725E6B08F5D69D /* Pods-sushiOle.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-sushiOle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sushiOle/Pods-sushiOle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_sushiOle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3D40617E61597B2A8BC7E35B3271A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE60963F2B8726030E06F69100EC1F9 /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BCFEF9B3D57E3D18B819FF55924485A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 018CB0A5E48415B6FAC01F1F574F018A /* Former.xcconfig */;
+			baseConfigurationReference = 550B688F987B2023ED2EB536966A1289 /* Former.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -745,7 +964,7 @@
 		};
 		C12427465ADBA66CF44D78305CB91F1D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 018CB0A5E48415B6FAC01F1F574F018A /* Former.xcconfig */;
+			baseConfigurationReference = 550B688F987B2023ED2EB536966A1289 /* Former.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -815,42 +1034,6 @@
 			};
 			name = Release;
 		};
-		E87ACE28FF75EE747386577B1214F24A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B27679E86226ED0C18725E6B08F5D69D /* Pods-sushiOle.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-sushiOle/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sushiOle/Pods-sushiOle.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_sushiOle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -863,11 +1046,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E29184D77794DD479CB115D6FE1BB9A /* Build configuration list for PBXNativeTarget "Pods-sushiOle" */ = {
+		606C1A565C19E5E64FB8349882972A7B /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E87ACE28FF75EE747386577B1214F24A /* Debug */,
-				9BA7E7F0BF63313123ED543D0EEEB3DC /* Release */,
+				3296127A3003E2618619AD188BFE48B3 /* Debug */,
+				B3D40617E61597B2A8BC7E35B3271A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA27D3C2A5C648B7D2C243B009F3A90 /* Build configuration list for PBXNativeTarget "Pods-sushiOle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8504CF44455082EC18D109D5496AAB01 /* Debug */,
+				4438EC3DD2140EFCAC1480410C801578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

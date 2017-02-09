@@ -7,7 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5776B2351E49E565005AE389 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5776B2341E49E565005AE389 /* LoginViewController.swift */; };
+		5776B2381E4C8341005AE389 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5776B2361E4C8341005AE389 /* Model.xcdatamodeld */; };
 		577B380D1E16B0DA0037E9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B380C1E16B0DA0037E9ED /* ViewController.swift */; };
+		57CD1BC51E49CB5400DB1E9D /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BC41E49CB5400DB1E9D /* profile.png */; };
+		57CD1BC71E49CB8200DB1E9D /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BC61E49CB8200DB1E9D /* profile.png */; };
+		57CD1BCC1E49CC6400DB1E9D /* Asset 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BC81E49CC6400DB1E9D /* Asset 1.png */; };
+		57CD1BCD1E49CC6400DB1E9D /* Asset 1.svg in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BC91E49CC6400DB1E9D /* Asset 1.svg */; };
+		57CD1BCE1E49CC6400DB1E9D /* Asset 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BCA1E49CC6400DB1E9D /* Asset 1@2x.png */; };
+		57CD1BCF1E49CC6400DB1E9D /* Asset 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BCB1E49CC6400DB1E9D /* Asset 1@3x.png */; };
+		57CD1BD11E49CF0500DB1E9D /* Shopping Cart-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BD01E49CF0500DB1E9D /* Shopping Cart-50.png */; };
+		57CD1BD61E49CFAE00DB1E9D /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BD21E49CFAE00DB1E9D /* cart.png */; };
+		57CD1BD71E49CFAE00DB1E9D /* cart.svg in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BD31E49CFAE00DB1E9D /* cart.svg */; };
+		57CD1BD81E49CFAE00DB1E9D /* cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BD41E49CFAE00DB1E9D /* cart@2x.png */; };
+		57CD1BD91E49CFAE00DB1E9D /* cart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BD51E49CFAE00DB1E9D /* cart@3x.png */; };
+		57CD1BDB1E49D4D900DB1E9D /* cart@0.5x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BDA1E49D4D900DB1E9D /* cart@0.5x.png */; };
+		57CD1BE01E49D5E000DB1E9D /* sushi.svg in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BDC1E49D5E000DB1E9D /* sushi.svg */; };
+		57CD1BE11E49D5E000DB1E9D /* sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BDD1E49D5E000DB1E9D /* sushi.png */; };
+		57CD1BE21E49D5E000DB1E9D /* sushi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BDE1E49D5E000DB1E9D /* sushi@2x.png */; };
+		57CD1BE31E49D5E000DB1E9D /* sushi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BDF1E49D5E000DB1E9D /* sushi@3x.png */; };
+		57CD1BE81E49D76000DB1E9D /* sushi2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BE41E49D76000DB1E9D /* sushi2.png */; };
+		57CD1BE91E49D76000DB1E9D /* sushi2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BE51E49D76000DB1E9D /* sushi2.svg */; };
+		57CD1BEA1E49D76000DB1E9D /* sushi2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BE61E49D76000DB1E9D /* sushi2@2x.png */; };
+		57CD1BEB1E49D76000DB1E9D /* sushi2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BE71E49D76000DB1E9D /* sushi2@3x.png */; };
 		AB9803F44B1C15B441BAB570 /* Pods_sushiOle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D73D345633C462AD3AEB5E /* Pods_sushiOle.framework */; };
 		D521A6CE1DA69E9C0001A085 /* Pedidos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D521A6CD1DA69E9C0001A085 /* Pedidos.swift */; };
 		D521A6D11DA69F320001A085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D521A6CF1DA69F320001A085 /* Main.storyboard */; };
@@ -49,7 +71,29 @@
 		15D73D345633C462AD3AEB5E /* Pods_sushiOle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sushiOle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B98B17C73C3AA6F2A417FD1 /* Pods-sushiOle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sushiOle.release.xcconfig"; path = "Pods/Target Support Files/Pods-sushiOle/Pods-sushiOle.release.xcconfig"; sourceTree = "<group>"; };
 		2EB8D896E47FE4AA4FDA7E82 /* Pods-sushiOle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sushiOle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sushiOle/Pods-sushiOle.debug.xcconfig"; sourceTree = "<group>"; };
+		5776B2341E49E565005AE389 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5776B2371E4C8341005AE389 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		577B380C1E16B0DA0037E9ED /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		57CD1BC41E49CB5400DB1E9D /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../../profile.png; sourceTree = "<group>"; };
+		57CD1BC61E49CB8200DB1E9D /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		57CD1BC81E49CC6400DB1E9D /* Asset 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 1.png"; sourceTree = "<group>"; };
+		57CD1BC91E49CC6400DB1E9D /* Asset 1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 1.svg"; sourceTree = "<group>"; };
+		57CD1BCA1E49CC6400DB1E9D /* Asset 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 1@2x.png"; sourceTree = "<group>"; };
+		57CD1BCB1E49CC6400DB1E9D /* Asset 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 1@3x.png"; sourceTree = "<group>"; };
+		57CD1BD01E49CF0500DB1E9D /* Shopping Cart-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shopping Cart-50.png"; sourceTree = "<group>"; };
+		57CD1BD21E49CFAE00DB1E9D /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cart.png; path = ../cart.png; sourceTree = "<group>"; };
+		57CD1BD31E49CFAE00DB1E9D /* cart.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cart.svg; path = ../cart.svg; sourceTree = "<group>"; };
+		57CD1BD41E49CFAE00DB1E9D /* cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart@2x.png"; path = "../cart@2x.png"; sourceTree = "<group>"; };
+		57CD1BD51E49CFAE00DB1E9D /* cart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart@3x.png"; path = "../cart@3x.png"; sourceTree = "<group>"; };
+		57CD1BDA1E49D4D900DB1E9D /* cart@0.5x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cart@0.5x.png"; path = "../cart@0.5x.png"; sourceTree = "<group>"; };
+		57CD1BDC1E49D5E000DB1E9D /* sushi.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sushi.svg; sourceTree = "<group>"; };
+		57CD1BDD1E49D5E000DB1E9D /* sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sushi.png; sourceTree = "<group>"; };
+		57CD1BDE1E49D5E000DB1E9D /* sushi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi@2x.png"; sourceTree = "<group>"; };
+		57CD1BDF1E49D5E000DB1E9D /* sushi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi@3x.png"; sourceTree = "<group>"; };
+		57CD1BE41E49D76000DB1E9D /* sushi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sushi2.png; sourceTree = "<group>"; };
+		57CD1BE51E49D76000DB1E9D /* sushi2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sushi2.svg; sourceTree = "<group>"; };
+		57CD1BE61E49D76000DB1E9D /* sushi2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi2@2x.png"; sourceTree = "<group>"; };
+		57CD1BE71E49D76000DB1E9D /* sushi2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sushi2@3x.png"; sourceTree = "<group>"; };
 		D521A6CD1DA69E9C0001A085 /* Pedidos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pedidos.swift; sourceTree = "<group>"; };
 		D521A6D01DA69F320001A085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5487E291DA560B800296598 /* SanFranciscoDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoDisplay-Black.otf"; path = "../../../../Downloads/SanFranciscoFont-master/SanFranciscoDisplay-Black.otf"; sourceTree = "<group>"; };
@@ -157,10 +201,31 @@
 		D5D0B9F71D942148006D7B36 /* sushiOle */ = {
 			isa = PBXGroup;
 			children = (
+				57CD1BE41E49D76000DB1E9D /* sushi2.png */,
+				57CD1BE51E49D76000DB1E9D /* sushi2.svg */,
+				57CD1BE61E49D76000DB1E9D /* sushi2@2x.png */,
+				57CD1BE71E49D76000DB1E9D /* sushi2@3x.png */,
+				57CD1BDC1E49D5E000DB1E9D /* sushi.svg */,
+				57CD1BDD1E49D5E000DB1E9D /* sushi.png */,
+				57CD1BDE1E49D5E000DB1E9D /* sushi@2x.png */,
+				57CD1BDF1E49D5E000DB1E9D /* sushi@3x.png */,
+				57CD1BDA1E49D4D900DB1E9D /* cart@0.5x.png */,
+				57CD1BD21E49CFAE00DB1E9D /* cart.png */,
+				57CD1BD31E49CFAE00DB1E9D /* cart.svg */,
+				57CD1BD41E49CFAE00DB1E9D /* cart@2x.png */,
+				57CD1BD51E49CFAE00DB1E9D /* cart@3x.png */,
+				57CD1BD01E49CF0500DB1E9D /* Shopping Cart-50.png */,
+				57CD1BC81E49CC6400DB1E9D /* Asset 1.png */,
+				57CD1BC91E49CC6400DB1E9D /* Asset 1.svg */,
+				57CD1BCA1E49CC6400DB1E9D /* Asset 1@2x.png */,
+				57CD1BCB1E49CC6400DB1E9D /* Asset 1@3x.png */,
+				57CD1BC61E49CB8200DB1E9D /* profile.png */,
+				57CD1BC41E49CB5400DB1E9D /* profile.png */,
 				577B380C1E16B0DA0037E9ED /* ViewController.swift */,
 				D56E76BC1DB8CA3600E462FB /* GoogleService-Info.plist */,
 				D5D43F3F1DAFDE16001BCB62 /* ch.png */,
 				D521A6CF1DA69F320001A085 /* Main.storyboard */,
+				5776B2361E4C8341005AE389 /* Model.xcdatamodeld */,
 				D5487E281DA5609F00296598 /* Resources */,
 				D5D0B9F81D942148006D7B36 /* AppDelegate.swift */,
 				D5D0BA031D942148006D7B36 /* Assets.xcassets */,
@@ -173,6 +238,7 @@
 				D56400E01DA3BCC500DE2884 /* Cell.swift */,
 				D5487E551DA5AC2F00296598 /* Cell2.swift */,
 				D56E21911DACDB3C0074C00F /* cell3.swift */,
+				5776B2341E49E565005AE389 /* LoginViewController.swift */,
 			);
 			path = sushiOle;
 			sourceTree = "<group>";
@@ -251,31 +317,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5487E3F1DA560B800296598 /* SanFranciscoDisplay-Bold.otf in Resources */,
+				57CD1BE21E49D5E000DB1E9D /* sushi@2x.png in Resources */,
+				57CD1BE91E49D76000DB1E9D /* sushi2.svg in Resources */,
+				57CD1BD61E49CFAE00DB1E9D /* cart.png in Resources */,
 				D56E76BD1DB8CA3600E462FB /* GoogleService-Info.plist in Resources */,
+				57CD1BE31E49D5E000DB1E9D /* sushi@3x.png in Resources */,
 				D5487E501DA560B800296598 /* SanFranciscoText-RegularItalic.otf in Resources */,
 				D5487E3E1DA560B800296598 /* SanFranciscoDisplay-Black.otf in Resources */,
+				57CD1BC51E49CB5400DB1E9D /* profile.png in Resources */,
 				D5487E421DA560B800296598 /* SanFranciscoDisplay-Medium.otf in Resources */,
+				57CD1BCD1E49CC6400DB1E9D /* Asset 1.svg in Resources */,
 				D5487E4D1DA560B800296598 /* SanFranciscoText-Medium.otf in Resources */,
+				57CD1BDB1E49D4D900DB1E9D /* cart@0.5x.png in Resources */,
 				D5487E4A1DA560B800296598 /* SanFranciscoText-HeavyItalic.otf in Resources */,
 				D521A6D11DA69F320001A085 /* Main.storyboard in Resources */,
 				D5D0BA071D942148006D7B36 /* LaunchScreen.storyboard in Resources */,
 				D5487E4C1DA560B800296598 /* SanFranciscoText-LightItalic.otf in Resources */,
+				57CD1BD91E49CFAE00DB1E9D /* cart@3x.png in Resources */,
 				D5487E431DA560B800296598 /* SanFranciscoDisplay-Regular.otf in Resources */,
 				D5487E4E1DA560B800296598 /* SanFranciscoText-MediumItalic.otf in Resources */,
+				57CD1BCC1E49CC6400DB1E9D /* Asset 1.png in Resources */,
 				D5487E441DA560B800296598 /* SanFranciscoDisplay-Semibold.otf in Resources */,
 				D5D0BA041D942148006D7B36 /* Assets.xcassets in Resources */,
 				D5D43F401DAFDE16001BCB62 /* ch.png in Resources */,
 				D5487E481DA560B800296598 /* SanFranciscoText-BoldItalic.otf in Resources */,
 				D5487E401DA560B800296598 /* SanFranciscoDisplay-Heavy.otf in Resources */,
 				D5487E461DA560B800296598 /* SanFranciscoDisplay-Ultralight.otf in Resources */,
+				57CD1BE11E49D5E000DB1E9D /* sushi.png in Resources */,
+				57CD1BD71E49CFAE00DB1E9D /* cart.svg in Resources */,
+				57CD1BEA1E49D76000DB1E9D /* sushi2@2x.png in Resources */,
 				D5487E411DA560B800296598 /* SanFranciscoDisplay-Light.otf in Resources */,
+				57CD1BEB1E49D76000DB1E9D /* sushi2@3x.png in Resources */,
 				D5487E4B1DA560B800296598 /* SanFranciscoText-Light.otf in Resources */,
 				D5487E491DA560B800296598 /* SanFranciscoText-Heavy.otf in Resources */,
+				57CD1BE01E49D5E000DB1E9D /* sushi.svg in Resources */,
 				D5487E451DA560B800296598 /* SanFranciscoDisplay-Thin.otf in Resources */,
+				57CD1BD11E49CF0500DB1E9D /* Shopping Cart-50.png in Resources */,
 				D5487E4F1DA560B800296598 /* SanFranciscoText-Regular.otf in Resources */,
 				D5487E511DA560B800296598 /* SanFranciscoText-Semibold.otf in Resources */,
+				57CD1BD81E49CFAE00DB1E9D /* cart@2x.png in Resources */,
+				57CD1BCE1E49CC6400DB1E9D /* Asset 1@2x.png in Resources */,
 				D5487E471DA560B800296598 /* SanFranciscoText-Bold.otf in Resources */,
+				57CD1BCF1E49CC6400DB1E9D /* Asset 1@3x.png in Resources */,
+				57CD1BE81E49D76000DB1E9D /* sushi2.png in Resources */,
 				D5487E521DA560B800296598 /* SanFranciscoText-SemiboldItalic.otf in Resources */,
+				57CD1BC71E49CB8200DB1E9D /* profile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +428,8 @@
 				D56400D31D9A529700DE2884 /* TableViewController.swift in Sources */,
 				D56400E11DA3BCC500DE2884 /* Cell.swift in Sources */,
 				D521A6CE1DA69E9C0001A085 /* Pedidos.swift in Sources */,
+				5776B2351E49E565005AE389 /* LoginViewController.swift in Sources */,
+				5776B2381E4C8341005AE389 /* Model.xcdatamodeld in Sources */,
 				D56400DB1D9A629300DE2884 /* DataHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +605,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5776B2361E4C8341005AE389 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5776B2371E4C8341005AE389 /* Model.xcdatamodel */,
+			);
+			currentVersion = 5776B2371E4C8341005AE389 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D5D0B9ED1D942148006D7B36 /* Project object */;
 }
