@@ -19,8 +19,8 @@ class LoginViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        FIRApp.configure()
-        print(DataHolder.sharedInstance.user?.email)
+        
+        //print(DataHolder.sharedInstance.user?.email)
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         
         //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
@@ -29,6 +29,13 @@ class LoginViewController: UIViewController {
         view.addGestureRecognizer(tap)
         
         // Do any additional setup after loading the view.
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        print("viewdidappear")
+        if (DataHolder.sharedInstance.firebaseAuth?.currentUser != nil){
+            print(DataHolder.sharedInstance.firebaseAuth?.currentUser!)
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,10 +48,17 @@ class LoginViewController: UIViewController {
     }
     
     func signin(user : String,password : String) -> Void {
+        
         FIRAuth.auth()?.signIn(withEmail: user, password: password) { (user, error) in
-            print(user?.email)
+            if (error != nil) {
+                print("error")
+            }else{
+                print(user?.email)
+                DataHolder.sharedInstance.user = user
+                self.performSegue(withIdentifier: "Logged", sender: self)
+
+            }
             //DataHolder.sharedInstance.user = user
-            self.performSegue(withIdentifier: "Logged", sender: self)
         }
     }
     /*

@@ -1,4 +1,7 @@
 PODS:
+  - Digits (2.6.1):
+    - TwitterCore (= 2.6.1)
+  - Fabric (1.6.11)
   - Firebase (3.6.0):
     - Firebase/Core (= 3.6.0)
   - Firebase/Analytics (3.6.0):
@@ -38,8 +41,12 @@ PODS:
   - GoogleUtilities (1.3.1):
     - GoogleSymbolUtilities (~> 1.0)
   - SCLAlertView (0.7.0)
+  - TwitterCore (2.6.1):
+    - Fabric
 
 DEPENDENCIES:
+  - Digits
+  - Fabric
   - Firebase
   - Firebase/Analytics
   - Firebase/Auth
@@ -49,6 +56,8 @@ DEPENDENCIES:
   - SCLAlertView
 
 SPEC CHECKSUMS:
+  Digits: 131fcee33424799dbac63022e07b8628af2ee8e0
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   Firebase: 34187200ef4979dbd485c7aa685ef078bf587c86
   FirebaseAnalytics: 3f5358d9104adf159cc8d99b7b501e50099a39ad
   FirebaseAuth: 75a062bbf2d3c97d1e6e55bbc110e13a6853e25d
@@ -61,7 +70,8 @@ SPEC CHECKSUMS:
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
   SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  TwitterCore: a8aea8bdaf2abd6572c8f264707a4ea4dc2d0eab
 
-PODFILE CHECKSUM: 26747ed925a0df79f03c02f66013688a4cfbd76a
+PODFILE CHECKSUM: 1859ab9fa5ad274990b6a61a25929561dd87d255
 
 COCOAPODS: 1.1.1

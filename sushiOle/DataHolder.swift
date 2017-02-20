@@ -34,17 +34,23 @@ class DataHolder : NSObject{
 
     override init() {
         super.init()
-        print("--entra dataholder")
+        //print("--entra dataholder")
         //FIRApp.configure()
+      
+        
+    }
+    
+    func initFB(){
+        FIRApp.configure()
         ref = FIRDatabase.database().reference()
         refStorage = FIRStorage.storage().reference()
         if FIRAuth.auth()?.currentUser != nil {
-             user = FIRAuth.auth()?.currentUser
+            user = FIRAuth.auth()?.currentUser
         } else {
             print("not signed in")
         }
-        
     }
+    
     func getPrice() -> (Int) {
         var price : Int = 0
         
@@ -57,7 +63,15 @@ class DataHolder : NSObject{
         
         return price
     }
-    
+    func signOut() -> Void {
+        do {
+            print("--- entra signOut")
+            try firebaseAuth?.signOut()
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+        
+    }
     
     
     func createArrayOfDishes(_ precio : String, nombre : String , cantidad : String) -> Void {
@@ -70,7 +84,22 @@ class DataHolder : NSObject{
         orderSize += 1
         
     }
-    
+    func clean() -> Void {
+        arrayDict.removeAll()
+        orderSize = 0
+        calle = ""
+        numero = ""
+        piso = ""
+        codigoPostal  = ""
+        palillos = false
+        soja = false
+        servilletas = false
+        comentarios = ""
+        pago  = ""
+        date = Date()
+        user = nil
+        
+    }
     func getImages(_ url : String,imagenView : UIImageView) ->Bool {
         
         imagenView.image = nil

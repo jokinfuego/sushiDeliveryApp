@@ -31,6 +31,12 @@ static var isCash = false
         detalles?.child("Servilletas").setValue(DataHolder.sharedInstance.servilletas)
         detalles?.child("Pago").setValue(DataHolder.sharedInstance.pago)
         referencia?.child("PrecioTotal").setValue(String(DataHolder.sharedInstance.getPrice())+"€")
+        let date = Date()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd.MM.yyyy"
+        let result = formatter.string(from: date)
+        
+        referencia?.child("Fecha").setValue(result)
         for (bookid, title) in DataHolder.sharedInstance.arrayDict {
             referencia2?.child("plato"+String(bookid)).child(title[1]).setValue(title[2])
           

@@ -19,19 +19,19 @@ class TableViewController: UITableViewController {
         let alertView = SCLAlertView(appearance: appearance)
         let alertViewIcon = UIImage(named: "sushi.png") //Replace the IconImage text with the image name
         alertView.addButton("Pedidos") {
-            //try! DataHolder.sharedInstance.firebaseAuth?.signOut()
-            //DataHolder.sharedInstance.user = nil
-            //self.performSegue(withIdentifier: "signout", sender: self)
-            //try! DataHolder.sharedInstance.firebaseAuth?.signOut()
-            if let storyboard = self.storyboard {
-                let vc = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
-                self.present(vc, animated: false, completion: nil)
-            }
+          
+            self.navigationController?.performSegue(withIdentifier: "Historial", sender: self)
+            //self.navigationController?.setNavigationBarHidden(true, animated: true)
+
         }
         alertView.addButton("Sign out") {
-            print("third button tapped")
+            DataHolder.sharedInstance.signOut()
+            DataHolder.sharedInstance.clean()
+            self.navigationController?.performSegue(withIdentifier: "signout", sender: self)
+            self.navigationController?.setNavigationBarHidden(true, animated: true)
         }
-        alertView.showError((DataHolder.sharedInstance.user?.email)!, subTitle: "", circleIconImage: alertViewIcon)
+        //alertView.showError((DataHolder.sharedInstance.user?.email)!, subTitle: "", circleIconImage: alertViewIcon)
+       alertView.showError((DataHolder.sharedInstance.user?.email)!, subTitle: "", circleIconImage: alertViewIcon)
     }
     var diccionario:[String:AnyObject] = [:]
     var array : Array<AnyObject> = []
@@ -40,6 +40,7 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         downloadDataGeneralMenu()
         print("current user " , DataHolder.sharedInstance.user?.email)
+        print("count", DataHolder.sharedInstance.arrayDict.count)
         
     }
     
@@ -53,6 +54,7 @@ class TableViewController: UITableViewController {
             self.pedidoButton.image = UIImage(named:"sushi2.png")
 
         }
+        print("USEEEEEEERRR" )
         
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

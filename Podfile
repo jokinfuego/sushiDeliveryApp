@@ -17,5 +17,7 @@ pod 'Firebase/Analytics'
 pod 'Former'
 pod 'SCLAlertView'
 pod 'Firebase/Auth'
+pod 'Fabric'
+pod 'Digits'
 
 end

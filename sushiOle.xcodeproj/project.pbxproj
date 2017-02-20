@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576FA6C51E520279000F2CD6 /* DigitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576FA6C41E520279000F2CD6 /* DigitsViewController.swift */; };
+		576FA6C71E531875000F2CD6 /* HistorialPedidosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576FA6C61E531875000F2CD6 /* HistorialPedidosTableViewController.swift */; };
+		576FA6C91E545771000F2CD6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576FA6C81E545771000F2CD6 /* TableViewCell.swift */; };
 		5776B2351E49E565005AE389 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5776B2341E49E565005AE389 /* LoginViewController.swift */; };
-		5776B2381E4C8341005AE389 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5776B2361E4C8341005AE389 /* Model.xcdatamodeld */; };
 		577B380D1E16B0DA0037E9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577B380C1E16B0DA0037E9ED /* ViewController.swift */; };
 		57CD1BC51E49CB5400DB1E9D /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BC41E49CB5400DB1E9D /* profile.png */; };
 		57CD1BC71E49CB8200DB1E9D /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 57CD1BC61E49CB8200DB1E9D /* profile.png */; };
@@ -71,8 +73,10 @@
 		15D73D345633C462AD3AEB5E /* Pods_sushiOle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sushiOle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B98B17C73C3AA6F2A417FD1 /* Pods-sushiOle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sushiOle.release.xcconfig"; path = "Pods/Target Support Files/Pods-sushiOle/Pods-sushiOle.release.xcconfig"; sourceTree = "<group>"; };
 		2EB8D896E47FE4AA4FDA7E82 /* Pods-sushiOle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sushiOle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sushiOle/Pods-sushiOle.debug.xcconfig"; sourceTree = "<group>"; };
+		576FA6C41E520279000F2CD6 /* DigitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitsViewController.swift; sourceTree = "<group>"; };
+		576FA6C61E531875000F2CD6 /* HistorialPedidosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistorialPedidosTableViewController.swift; sourceTree = "<group>"; };
+		576FA6C81E545771000F2CD6 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		5776B2341E49E565005AE389 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		5776B2371E4C8341005AE389 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		577B380C1E16B0DA0037E9ED /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		57CD1BC41E49CB5400DB1E9D /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../../profile.png; sourceTree = "<group>"; };
 		57CD1BC61E49CB8200DB1E9D /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
@@ -201,6 +205,7 @@
 		D5D0B9F71D942148006D7B36 /* sushiOle */ = {
 			isa = PBXGroup;
 			children = (
+				576FA6C41E520279000F2CD6 /* DigitsViewController.swift */,
 				57CD1BE41E49D76000DB1E9D /* sushi2.png */,
 				57CD1BE51E49D76000DB1E9D /* sushi2.svg */,
 				57CD1BE61E49D76000DB1E9D /* sushi2@2x.png */,
@@ -221,11 +226,9 @@
 				57CD1BCB1E49CC6400DB1E9D /* Asset 1@3x.png */,
 				57CD1BC61E49CB8200DB1E9D /* profile.png */,
 				57CD1BC41E49CB5400DB1E9D /* profile.png */,
-				577B380C1E16B0DA0037E9ED /* ViewController.swift */,
 				D56E76BC1DB8CA3600E462FB /* GoogleService-Info.plist */,
 				D5D43F3F1DAFDE16001BCB62 /* ch.png */,
 				D521A6CF1DA69F320001A085 /* Main.storyboard */,
-				5776B2361E4C8341005AE389 /* Model.xcdatamodeld */,
 				D5487E281DA5609F00296598 /* Resources */,
 				D5D0B9F81D942148006D7B36 /* AppDelegate.swift */,
 				D5D0BA031D942148006D7B36 /* Assets.xcassets */,
@@ -233,11 +236,14 @@
 				D5D0BA081D942148006D7B36 /* Info.plist */,
 				D56400D21D9A529700DE2884 /* TableViewController.swift */,
 				D5487E531DA5A04B00296598 /* TableViewController2.swift */,
+				576FA6C61E531875000F2CD6 /* HistorialPedidosTableViewController.swift */,
 				D521A6CD1DA69E9C0001A085 /* Pedidos.swift */,
+				577B380C1E16B0DA0037E9ED /* ViewController.swift */,
 				D56400DA1D9A629300DE2884 /* DataHolder.swift */,
 				D56400E01DA3BCC500DE2884 /* Cell.swift */,
 				D5487E551DA5AC2F00296598 /* Cell2.swift */,
 				D56E21911DACDB3C0074C00F /* cell3.swift */,
+				576FA6C81E545771000F2CD6 /* TableViewCell.swift */,
 				5776B2341E49E565005AE389 /* LoginViewController.swift */,
 			);
 			path = sushiOle;
@@ -265,6 +271,7 @@
 				D5D0B9F31D942148006D7B36 /* Resources */,
 				B2EF295CE36698838CAF28A0 /* [CP] Embed Pods Frameworks */,
 				466D79023071E85C53E5667A /* [CP] Copy Pods Resources */,
+				57F15AEE1E51FE0E0037AC36 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -383,6 +390,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sushiOle/Pods-sushiOle-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		57F15AEE1E51FE0E0037AC36 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" b4042ffd366faa7951089f33c00ebd1c9da5e226 7bfb3677a6516493ce4fbd2a52304f2e8bd55cbeea5977516ce9fc1b16f973cc\n";
+		};
 		B2EF295CE36698838CAF28A0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -420,16 +440,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576FA6C91E545771000F2CD6 /* TableViewCell.swift in Sources */,
 				D5487E561DA5AC2F00296598 /* Cell2.swift in Sources */,
 				D56E21921DACDB3C0074C00F /* cell3.swift in Sources */,
 				D5487E541DA5A04B00296598 /* TableViewController2.swift in Sources */,
 				577B380D1E16B0DA0037E9ED /* ViewController.swift in Sources */,
+				576FA6C51E520279000F2CD6 /* DigitsViewController.swift in Sources */,
 				D5D0B9F91D942148006D7B36 /* AppDelegate.swift in Sources */,
 				D56400D31D9A529700DE2884 /* TableViewController.swift in Sources */,
 				D56400E11DA3BCC500DE2884 /* Cell.swift in Sources */,
 				D521A6CE1DA69E9C0001A085 /* Pedidos.swift in Sources */,
 				5776B2351E49E565005AE389 /* LoginViewController.swift in Sources */,
-				5776B2381E4C8341005AE389 /* Model.xcdatamodeld in Sources */,
+				576FA6C71E531875000F2CD6 /* HistorialPedidosTableViewController.swift in Sources */,
 				D56400DB1D9A629300DE2884 /* DataHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,19 +627,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5776B2361E4C8341005AE389 /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5776B2371E4C8341005AE389 /* Model.xcdatamodel */,
-			);
-			currentVersion = 5776B2371E4C8341005AE389 /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D5D0B9ED1D942148006D7B36 /* Project object */;
 }
